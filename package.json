@@ -1,0 +1,24 @@
+{
+  "name": "appathon",
+  "version": "1.0.0",
+  "description": "My Karmaa App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashant-kr-314/appathon.git"
+  },
+  "author": "prashant kumar meena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashant-kr-314/appathon/issues"
+  },
+  "homepage": "https://github.com/prashant-kr-314/appathon#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
+}
