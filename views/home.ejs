@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        /* Optional: Makes the sample page fill the window. */
+        html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        let google_maps_js_API_with_my_key = "https://maps.googleapis.com/maps/api/js?key=" +
+            "<%= config.google_maps_js_API_Key %>" + "&callback=initMap"
+    </script>
+</head>
+
+<body>
+
+    <div class="filter-bar"></div>
+    <div id="content"></div>
+
+</body>
+
+
+</html>
