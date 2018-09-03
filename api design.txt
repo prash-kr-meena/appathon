@@ -1,0 +1,43 @@
+GET :  ////
+
+   /admin/.pages/apag
+
+
+    /allDealers
+    /dealer/{id}
+    /dealer/{id}/allcars
+    /car/{id} --> car details    --> it will also have a link to the
+
+    /recommendation/{id}
+
+    /getMessage_inbox/{User_id}
+    /getMessage_outbox/{user_id}
+
+
+    /getMessage_inbox/{dealer_id}
+    /getMessage_outbox/{dealer_id}
+
+        //getreding ---> will keep 15 cars in a map, that were  searchd, so as  /car/{id} --> this api is called will put the car_id in the map, and just loop over the map, and return all the car json object corrosponding to the car_id's
+
+    //seach will be complicated
+
+    search?compnanies = [compnay_names , compnay_names]
+    eg. RESULS <<<<----- search?[bmw , ferari]
+
+
+------
+------
+------[++]        --> { car details   [++delar_infrmation++]  we would have dealer id fromt car's object
+------
+------
+------
+
+
+POST :  ////
+
+
+        //mesage will be sent via post request
+        /sendMessage/{from}/{to}
+
+        //car object will be sent via post request
+        /addCars/{Dealer_id}

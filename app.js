@@ -5,24 +5,48 @@ const express = require('express'),
       CSV_TO_JSON = require("csvtojson/v2"),
       // PATH = require('path'),
       FS = require('fs'),
-      app = express();
+      app = express(),
+      MONGOOSE = require("mongoose"); // middleware to connect node app & mongoDB | Elegant MongoDB object modeling for Node.js
+
 
 // add timestamps in front of log messages
 require('console-stamp')(console, '[HH:MM:ss.l]');
 
 app.set("view engine", "ejs"); // middle ware
 
-let config = require("./config.json");
+
+// ! connect to mongoDB && Some checks
+// Mongoose provides a straight-forward, schema-based solution to model your application data.
+//  It includes built-in type casting, validation, query building, business logic hooks and more, out of the box.
+
+let DatabaseConfig = require("./config/database");
+MONGOOSE.connect(DatabaseConfig.database_host, {
+      useNewUrlParser: true
+});
+const DB = MONGOOSE.connection;
 
 
-app.get(`/`, function (req, res) {
-      // res.send("Hello");
-      res.render("home", {
-            config: config,
-      });
+//? check connection
+DB.once('open', () => {
+      console.log('Connected to DB :  SUCCESS');
+});
+
+// ? check db errors
+DB.on('error', (db_err) => {
+      console.log("DB ERROR : " + db_err);
 });
 
 
+
+
+
+
+
+const google_maps_config = require("./config/google_maps");
+
+app.get(`/`, function (req, res) {
+      res.send("HOME");
+});
 
 
 
@@ -43,7 +67,7 @@ app.get(`/map_view`, (req, res) => {
                         // console.log(array_Records_Object);
 
                         res.render("map_view", {
-                              config: config,
+                              config: google_maps_config,
                               array_Records_Object: JSON.stringify(array_Records_Object),
                         });
                   },
@@ -83,6 +107,9 @@ function promise_to_parseCSV(csv_file_path) { // * Parse large csv with stream /
       });
 }
 
+
+const API_ROUTER = require("./route/api");
+app.use("/api/", API_ROUTER);
 
 
 
