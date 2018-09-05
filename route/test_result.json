@@ -1,0 +1,513 @@
+[{
+
+    "_id": "5b8ed214b460e7c17c5a33f9",
+    "company_location": "USA",
+    "company_name": "gmc",
+    "__v": 0,
+    "cars": [{
+            "_id": "5b8ed214044b2509466eca2e",
+            "model": "TERRAIN",
+            "year": 2013,
+            "PriceInINR": 3851710,
+            "trim": "SLE2 FWD",
+            "engine": "SPORT UTILITY 4-DR",
+            "body": "2.4L L4 DOHC 16V FFV",
+            "color": "Yellow",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ce7065fa50bee095072"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca31",
+            "model": "ACADIA",
+            "year": 2014,
+            "PriceInINR": 1730235,
+            "trim": "Denali AWD",
+            "engine": "SPORT UTILITY 4-DR",
+            "body": "3.6L V6 DOHC 24V",
+            "color": "Black",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ce7065fa50bee095072"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca32",
+            "model": "YUKON",
+            "year": 2015,
+            "PriceInINR": 3129397,
+            "trim": "SLE 2WD",
+            "engine": "SPORT UTILITY 4-DR",
+            "body": "5.3L V8 OHV 16V",
+            "color": "Silver",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ce7065fa50bee095072"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca30",
+            "model": "Acadia",
+            "year": 2012,
+            "PriceInINR": 3805008,
+            "trim": "Denali FWD",
+            "engine": "SPORT UTILITY 4-DR",
+            "body": "3.6L V6 DOHC 24V",
+            "color": "Metallic White",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7ce7065fa50bee095072"
+        }
+    ]
+}, {
+    "_id": "5b8ed214b460e7c17c5a33fb",
+    "company_location": "USA",
+    "company_name": "buick",
+    "__v": 0,
+    "cars": [{
+        "_id": "5b8ed214044b2509466eca2d",
+        "model": "ENCLAVE",
+        "year": 2014,
+        "PriceInINR": 2537993,
+        "trim": "Leather FWD",
+        "engine": "SPORT UTILITY 4-DR",
+        "body": "3.6L V6 DOHC 24V",
+        "color": "Silver",
+        "transmission_type": "Manual",
+        "dealer_id": "5b8e7ce7065fa50bee095072"
+    }]
+}, {
+    "_id": "5b8ed214b460e7c17c5a3400",
+    "company_location": "USA",
+    "company_name": "subaru",
+    "__v": 0,
+    "cars": [{
+            "_id": "5b8ed214044b2509466eca33",
+            "model": "FORESTER 2.5X",
+            "year": 2010,
+            "PriceInINR": 3975010,
+            "trim": "GRAY",
+            "engine": "SPORT UTILITY 4-DR",
+            "body": "SUV",
+            "color": "Grey",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7ce7065fa50bee095074"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca36",
+            "model": "OUTBACK",
+            "year": 2015,
+            "PriceInINR": 4608166,
+            "trim": "2.5i",
+            "engine": "2.5L H4 DOHC 16V",
+            "body": "2.5I",
+            "color": "Yellow",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ce7065fa50bee095074"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca38",
+            "model": "OUTBACK",
+            "year": 2015,
+            "PriceInINR": 4059046,
+            "trim": "BLACK",
+            "engine": "WAGON 4-DR",
+            "body": "2.5I L",
+            "color": "Metallic White",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7ce7065fa50bee095074"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca37",
+            "model": "OUTBACK",
+            "year": 2014,
+            "PriceInINR": 1922765,
+            "trim": "2.5I Premium",
+            "engine": "2.5L H4 DOHC 16V",
+            "body": "2.5I CVT",
+            "color": "Grey",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7ce7065fa50bee095073"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca34",
+            "model": "IMPREZA",
+            "year": 2015,
+            "PriceInINR": 3044720,
+            "trim": "BLK",
+            "engine": "SEDAN 4-DR",
+            "body": "WRX",
+            "color": "Metallic White",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7ce7065fa50bee095073"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca35",
+            "model": "FORESTER",
+            "year": 2014,
+            "PriceInINR": 4074589,
+            "trim": "GRAY",
+            "engine": "2.0L H4 SOHC 16V",
+            "body": "4DR AUTO 2.0XT TOURING",
+            "color": "Black",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ce7065fa50bee095074"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca3b",
+            "model": "IMPREZA SEDAN",
+            "year": 2011,
+            "PriceInINR": 514708,
+            "trim": "2.5i 4-Door",
+            "engine": "2.5L H4 16V DOHC TURBO",
+            "body": "4DR AUTO I",
+            "color": "Silver",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ce7065fa50bee095073"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca40",
+            "model": "OUTBACK",
+            "year": 2018,
+            "PriceInINR": 1869104,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "NULL",
+            "color": "Black",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ce7065fa50bee095073"
+        }
+    ]
+}, {
+    "_id": "5b8ed214b460e7c17c5a3403",
+    "company_location": "USA",
+    "company_name": "chevrolet",
+    "__v": 0,
+    "cars": [{
+            "_id": "5b8ed214044b2509466eca2f",
+            "model": "SILVERADO 2500HD",
+            "year": 2014,
+            "PriceInINR": 840547,
+            "trim": "LT Crew Cab 4WD",
+            "engine": "CREW CAB PICKUP 4-DR",
+            "body": "6.6L V8 OHV 32V TURBO DIESEL",
+            "color": "Grey",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7ce7065fa50bee095072"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca4a",
+            "model": "colorADO",
+            "year": 2018,
+            "PriceInINR": 1449274,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "2WD EXT CAB 128.3 WORK T\"",
+            "color": "Silver",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7cef065fa50bee0950b4"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca50",
+            "model": "IMPALA",
+            "year": 2015,
+            "PriceInINR": 689407,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "NULL",
+            "color": "Grey",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cef065fa50bee0950b4"
+        }
+    ]
+}, {
+    "_id": "5b8ed214b460e7c17c5a340b",
+    "company_location": "USA",
+    "company_name": "mercedes-benz",
+    "__v": 0,
+    "cars": [{
+        "_id": "5b8ed214044b2509466eca39",
+        "model": "C-CLASS",
+        "year": 2015,
+        "PriceInINR": 3055791,
+        "trim": "NULL",
+        "engine": "NULL",
+        "body": "4DR SDN C300 4MATIC",
+        "color": "Yellow",
+        "transmission_type": "Manual",
+        "dealer_id": "5b8e7ce8065fa50bee095079"
+    }]
+}, {
+    "_id": "5b8ed214b460e7c17c5a340d",
+    "company_location": "USA",
+    "company_name": "bmw",
+    "__v": 0,
+    "cars": [{
+            "_id": "5b8ed214044b2509466eca3a",
+            "model": "328I",
+            "year": 2015,
+            "PriceInINR": 1158641,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "PAHS",
+            "color": "Metallic White",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cef065fa50bee0950af"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca43",
+            "model": "X3",
+            "year": 2012,
+            "PriceInINR": 3166688,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "UP",
+            "color": "Black",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7cef065fa50bee0950b6"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca45",
+            "model": "X5",
+            "year": 2010,
+            "PriceInINR": 1699946,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "PTHSISAT",
+            "color": "Yellow",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7cef065fa50bee0950af"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca4d",
+            "model": "128",
+            "year": 2011,
+            "PriceInINR": 4184096,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "2DR CONV 128I",
+            "color": "Metallic White",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cef065fa50bee0950af"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca4e",
+            "model": "7 SERIES",
+            "year": 2015,
+            "PriceInINR": 3277910,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "4DR SDN 740I RWD",
+            "color": "Metallic White",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cf0065fa50bee0950b7"
+        }
+    ]
+}, {
+    "_id": "5b8ed214b460e7c17c5a3410",
+    "company_location": "USA",
+    "company_name": "cadillac",
+    "__v": 0,
+    "cars": [{
+            "_id": "5b8ed214044b2509466eca3c",
+            "model": "STS",
+            "year": 2010,
+            "PriceInINR": 3403198,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "NULL",
+            "color": "Grey",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cf0065fa50bee0950bb"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca51",
+            "model": "ESCALADE",
+            "year": 2011,
+            "PriceInINR": 1437198,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "NULL",
+            "color": "Grey",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cef065fa50bee0950b5"
+        }
+    ]
+}, {
+    "_id": "5b8ed214b460e7c17c5a3413",
+    "company_location": "USA",
+    "company_name": "honda",
+    "__v": 0,
+    "cars": [{
+            "_id": "5b8ed214044b2509466eca3d",
+            "model": "CIVIC SDN",
+            "year": 2010,
+            "PriceInINR": 2171640,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "4DR AUTO LX",
+            "color": "Grey",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cef065fa50bee0950b6"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca3f",
+            "model": "ACCORD EX",
+            "year": 2014,
+            "PriceInINR": 4885415,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "4D",
+            "color": "Black",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7cef065fa50bee0950b6"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca42",
+            "model": "CIVIC SDN",
+            "year": 2017,
+            "PriceInINR": 2075626,
+            "trim": "BLACK",
+            "engine": "NULL",
+            "body": "4D",
+            "color": "Black",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7cef065fa50bee0950b6"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca47",
+            "model": "RIDGELINE 19",
+            "year": 2019,
+            "PriceInINR": 3597820,
+            "trim": "NH-797",
+            "engine": "NULL",
+            "body": "RTL-E",
+            "color": "Yellow",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ced065fa50bee0950a5"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca49",
+            "model": "PILOT LX",
+            "year": 2015,
+            "PriceInINR": 4764310,
+            "trim": "BEIGE",
+            "engine": "NULL",
+            "body": "4D",
+            "color": "Silver",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7cef065fa50bee0950b6"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca4b",
+            "model": "ACCORD TOURING",
+            "year": 2016,
+            "PriceInINR": 935708,
+            "trim": "IVORY",
+            "engine": "NULL",
+            "body": "4D",
+            "color": "Silver",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7cef065fa50bee0950b6"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca4f",
+            "model": "PILOT EX",
+            "year": 2017,
+            "PriceInINR": 3926393,
+            "trim": "POLISHED METAL",
+            "engine": "NULL",
+            "body": "UT",
+            "color": "Metallic White",
+            "transmission_type": "Automatic",
+            "dealer_id": "5b8e7cef065fa50bee0950b6"
+        }
+    ]
+}, {
+    "_id": "5b8ed214b460e7c17c5a3414",
+    "company_location": "USA",
+    "company_name": "toyota",
+    "__v": 0,
+    "cars": [{
+        "_id": "5b8ed214044b2509466eca3e",
+        "model": "YARIS IA",
+        "year": 2017,
+        "PriceInINR": 2920190,
+        "trim": "BLACK",
+        "engine": "NULL",
+        "body": "SD",
+        "color": "Grey",
+        "transmission_type": "Automatic",
+        "dealer_id": "5b8e7ced065fa50bee0950a1"
+    }]
+}, {
+    "_id": "5b8ed214b460e7c17c5a341a",
+    "company_location": "USA",
+    "company_name": "lexus",
+    "__v": 0,
+    "cars": [{
+        "_id": "5b8ed214044b2509466eca41",
+        "model": "IS 200T",
+        "year": 2017,
+        "PriceInINR": 3716113,
+        "trim": "CHATEAU",
+        "engine": "NULL",
+        "body": "NULL",
+        "color": "Black",
+        "transmission_type": "Manual",
+        "dealer_id": "5b8e7cea065fa50bee095085"
+    }]
+}, {
+    "_id": "5b8ed214b460e7c17c5a341c",
+    "company_location": "USA",
+    "company_name": "ford",
+    "__v": 0,
+    "cars": [{
+            "_id": "5b8ed214044b2509466eca44",
+            "model": "FUSION",
+            "year": 2013,
+            "PriceInINR": 538294,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "4DR SDN SE FWD",
+            "color": "Yellow",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ceb065fa50bee095091"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca46",
+            "model": "EDGE",
+            "year": 2017,
+            "PriceInINR": 3091204,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "TITANIUM AWD",
+            "color": "Yellow",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ceb065fa50bee095090"
+        },
+        {
+            "_id": "5b8ed214044b2509466eca48",
+            "model": "F150 4X4",
+            "year": 2015,
+            "PriceInINR": 1395106,
+            "trim": "NULL",
+            "engine": "NULL",
+            "body": "SUPERCREW - 145",
+            "color": "Silver",
+            "transmission_type": "Manual",
+            "dealer_id": "5b8e7ceb065fa50bee095090"
+        }
+    ]
+}, {
+    "_id": "5b8ed214b460e7c17c5a3426",
+    "company_location": "USA",
+    "company_name": "nissan",
+    "__v": 0,
+    "cars": [{
+        "_id": "5b8ed214044b2509466eca4c",
+        "model": "VERSA SEDAN",
+        "year": 2017,
+        "PriceInINR": 4916520,
+        "trim": "G",
+        "engine": "NULL",
+        "body": "S PLUS CVT",
+        "color": "Metallic White",
+        "transmission_type": "Automatic",
+        "dealer_id": "5b8e7ced065fa50bee0950a0"
+    }]
+}]

@@ -113,6 +113,17 @@ app.use("/api/", API_ROUTER);
 
 
 
+
+const DATA_ROUTER = require("./route/data");
+app.use("/data/", DATA_ROUTER);
+
+
+const BUYER_ROUTER = require("./route/buyer");
+app.use("/buyer/", BUYER_ROUTER);
+
+
+
+
 // process.env.PORT   process.env.IP
 app.listen(3000, () => {
       console.log("server live");

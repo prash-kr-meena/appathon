@@ -1,49 +1,91 @@
  if( db.car.find(company_name) == true)
   db.car.company_name.save
 
-ID, VIN,
-available_cars { < -- -- -- -- -- -
-	bmw: [
-			car1 {
-				Make,
-				Model,
-				Year,
-				PriceInINR,
-				Trim,
-				Engine,
-				Body,
-				Color,
-				Transmission
-				dealer - id_2: << << -- --
-				color;
-				transmittion_type;
-			},
-			car2 {
-				dealer - id_2:
-					color;
-				transmittion_type;
-			},
-			car3 {
-				dealer - id_3:
-					color;
-				transmittion_type;
-			}
-		],
+   carsGarage {
+    	bmw: [
+    			car1 {
+    			    Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
+    			},
+    			car2 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
 
-		ferari {
-			-- -- --
-			-- -- --
-			-- -- --
+    			},car3 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
 
-		},
+    			}
+    		],
 
-		jag {
-			-- -- --
-			-- -- --
-			-- -- --
+    	jaguar: [
+    			car1 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
 
-		}
-}
+    			},
+    			car2 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
+
+    			}
+              ],
+    	ferrari [
+    			{-- -- --}
+    			{-- -- --}
+    			{-- -- --}
+    		]
+    }
+
+
+
+
+==================================================
+
+
+   carsGarage {
+
+    		car1 { bmw ,
+    		     Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		},
+    		car2 {bmw ,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		},car3 {jaguar ,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		}
+
+
+    		car4 { bmw,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		},
+    		car5 { jaguar,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		}
+
+
+    		{ ferrari -- -- --}
+    		{ ferrari -- -- --}
+    		{ ferrari -- -- --}
+
+    }
+
+
+
 
 
 

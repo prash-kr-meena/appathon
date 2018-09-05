@@ -95,5 +95,5 @@ function createAscendingIndex_on_user_email(DB, callback) {
             console.log("index created  ", result, "<<<<<<<<" , collection_name, " collection");
             // callback("result");
       });
-};
+}
 //? NOTE : Creating indexes in MongoDB is an idempotent operation. So running db.names.createIndex({name:1}) would create the index only if it didn't already exist.

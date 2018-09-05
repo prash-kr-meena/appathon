@@ -1,13 +1,4 @@
 [{
-    "id": "DealerID",
-    "name": "DealerName",
-    "longitude": "DealerLongitude",
-    "latitude": "DealerLatitude",
-    "email": "DealerEmail",
-    "rating": "DealerAvgRatingOutOf5",
-    "numOfPEopleRated": "NumberOfPeopleRated"
-  },
-  {
     "id": "103",
     "name": "Hardin Buick GMC",
     "longitude": "83.3702517",

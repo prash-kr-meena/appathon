@@ -1,0 +1,1111 @@
+[{
+    "_id": "5b8eda06f049190ac9757b8e",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.9814011,
+        "long": "83.3702517"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hardin Buick GMC",
+    "password": "$2a$10$0AQ6A5wF1d0Wt2ScHetKb.Cq9QgMc6TRLlH4vvmVbWcROOLCgPwGO",
+    "email": "bitBattle_2018_103_@myKarmaa.com",
+    "rating": 4.05,
+    "no_of_people_rated": 732,
+    "__v": 0
+}, {
+    "_id": "5b8eda06f049190ac9757b8f",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.4314087,
+        "long": "83.4624978"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mark Miller Subaru Midtown",
+    "password": "$2a$10$3x.R8N2i/U1SVu0OV5GXH.lGmZWVScCNnpymM.c7e6hQkYrEU0ake",
+    "email": "bitBattle_2018_170_@myKarmaa.com",
+    "rating": 2.69,
+    "no_of_people_rated": 496,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b90",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 26.05406,
+        "long": "83.2668224"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mark Miller Subaru South Towne",
+    "password": "$2a$10$cNrqobUMBqUxg7PmJ4fEKO9Y0qUY5vfFUnkSz.GVEQEwOIAzA7sfy",
+    "email": "bitBattle_2018_169_@myKarmaa.com",
+    "rating": 4.77,
+    "no_of_people_rated": 558,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b91",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 26.1244779,
+        "long": "82.8952379"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Roush Honda",
+    "password": "$2a$10$SDurJOCRQJZGuefZt31dDefKDk84NdVfww4ON8BfxhWOhU94Gz8Qi",
+    "email": "bitBattle_2018_178_@myKarmaa.com",
+    "rating": 3.62,
+    "no_of_people_rated": 128,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b92",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.4685204,
+        "long": "82.4545806"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Gainesville",
+    "password": "$2a$10$u8ZMb3G9.XSlb.jHy7M2QewsTdZkvxO8lW8nv44.U5oGiRVDrRY6K",
+    "email": "bitBattle_2018_226_@myKarmaa.com",
+    "rating": 3.54,
+    "no_of_people_rated": 793,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b93",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.4663094,
+        "long": "82.7846396"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Winner Ford of Cherry Hill",
+    "password": "$2a$10$NfThB2pYZaO4hRUiKJXH5.XEH3qbShgUGf3rx54ebagQE85aYJm6.",
+    "email": "bitBattle_2018_271_@myKarmaa.com",
+    "rating": 2.68,
+    "no_of_people_rated": 765,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b94",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.2703759,
+        "long": "83.7710818"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of St Clair Shores",
+    "password": "$2a$10$I9x97WNw6YypIOsxkkEJn.BQKMpmL40XHG8QHHq2lH.dJkSMXcLRC",
+    "email": "bitBattle_2018_278_@myKarmaa.com",
+    "rating": 3.77,
+    "no_of_people_rated": 238,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b95",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.2968101,
+        "long": "82.1692242"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Napleton`s Autowerks Schererville",
+    "password": "$2a$10$Lz3gcvceqLQXU08TcZwwtuGnr/219Ka0wrcmMYDn7KeqP9sI68eVW",
+    "email": "bitBattle_2018_304_@myKarmaa.com",
+    "rating": 4.69,
+    "no_of_people_rated": 859,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b96",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.8011812,
+        "long": "82.4601906"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Napleton Autowerks of Bourbonnais",
+    "password": "$2a$10$3QqJsvlsXEEA.JIN.DPileXD.PqbO2HklPrJm9EU2d.js7y/tvFN2",
+    "email": "bitBattle_2018_302_@myKarmaa.com",
+    "rating": 2.84,
+    "no_of_people_rated": 370,
+    "__v": 0
+}, {
+    "_id": "5b8eda07f049190ac9757b97",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.5979521,
+        "long": "83.1944782"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Napleton Auto Group",
+    "password": "$2a$10$aXBbDmhNyWkEvzbuC/hvkOaKJnWEz1X2y5/y8Obu9MsVFmSaAEX0q",
+    "email": "bitBattle_2018_305_@myKarmaa.com",
+    "rating": 4.94,
+    "no_of_people_rated": 385,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b98",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.3206206,
+        "long": "82.5159364"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Columbus",
+    "password": "$2a$10$RneboYOap40NGwuwRFPvFuE6vDbuI084oDKgBySG8mLRK9TfPFmU.",
+    "email": "bitBattle_2018_301_@myKarmaa.com",
+    "rating": 4.83,
+    "no_of_people_rated": 597,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b99",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.5009841,
+        "long": "83.6749736"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Portsmouth",
+    "password": "$2a$10$dUAJNSHT.izZ2RnLeRi4HuDkpWyHCOFsmS3aNxpcna6ztkUPhD.im",
+    "email": "bitBattle_2018_367_@myKarmaa.com",
+    "rating": 4.36,
+    "no_of_people_rated": 507,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b9a",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.9011181,
+        "long": "83.387443"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Holloway Motor Cars Manchester",
+    "password": "$2a$10$GipWPsmCghEcEsAd.UZb4uy3GgbO3N7HudFhFYBfY.svuUyhyf5tW",
+    "email": "bitBattle_2018_368_@myKarmaa.com",
+    "rating": 4.08,
+    "no_of_people_rated": 360,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b9b",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.9525747,
+        "long": "82.4662069"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Shrewsbury",
+    "password": "$2a$10$FWFYS9qmErs08k7ACvQu..UXhHlPDBdBhKLCkKkvo4v42TMweTC92",
+    "email": "bitBattle_2018_355_@myKarmaa.com",
+    "rating": 4.24,
+    "no_of_people_rated": 391,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b9c",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.4732146,
+        "long": "82.3705267"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Laredo",
+    "password": "$2a$10$HwzSQ12TPJ/nLf/X3ftPx.PBpOX2skRshJFEHP1khIM.mpThJOwqi",
+    "email": "bitBattle_2018_412_@myKarmaa.com",
+    "rating": 3.58,
+    "no_of_people_rated": 701,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b9f",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.4629128,
+        "long": "82.5642552"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Pueblo Dodge Chrysler Jeep",
+    "password": "$2a$10$FeHHxH.kS30nHg8ZGIHzb.Hres0fuQ..pigup/nxa2YZAy9QEKgMK",
+    "email": "bitBattle_2018_443_@myKarmaa.com",
+    "rating": 3.59,
+    "no_of_people_rated": 409,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b9d",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.1929428,
+        "long": "82.5301458"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Coppus Motors",
+    "password": "$2a$10$4NB5imw9IVk8Cr0FadnN9eTJpYDGs7BwErHyg/hKtUxUuwfepwQR6",
+    "email": "bitBattle_2018_413_@myKarmaa.com",
+    "rating": 2.99,
+    "no_of_people_rated": 615,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757b9e",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.2307168,
+        "long": "83.0764233"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Tucson",
+    "password": "$2a$10$VDannH0RK1Uijqak5BsZKOz88J2snnX1BJkx3.Pli1VxGscfKbYWm",
+    "email": "bitBattle_2018_435_@myKarmaa.com",
+    "rating": 2.2,
+    "no_of_people_rated": 875,
+    "__v": 0
+}, {
+    "_id": "5b8eda08f049190ac9757ba0",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.2628655,
+        "long": "83.0991825"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "John Hine Mazda",
+    "password": "$2a$10$APpqpaj.OCb32i5IERVB4eg1aZ5XfXw3uD6ABUfDdBFtM7yHkoyaW",
+    "email": "bitBattle_2018_466_@myKarmaa.com",
+    "rating": 3.84,
+    "no_of_people_rated": 968,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba1",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.223891,
+        "long": "82.0735005"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "South Bay Lexus of Torrance",
+    "password": "$2a$10$UXZBXkV2yKXZZR1a1PYj..4u2RK98uBFxk1aAmHfTDjh0DSnkf9Za",
+    "email": "bitBattle_2018_172_@myKarmaa.com",
+    "rating": 4.14,
+    "no_of_people_rated": 703,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba2",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.6680222,
+        "long": "82.791173"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Alderson European Motorcars - Midland",
+    "password": "$2a$10$zepUIaXyMils1eFQU.1pYuIsWeU/MZH1y.RVRl5jxJLNFljBYdflS",
+    "email": "bitBattle_2018_256_@myKarmaa.com",
+    "rating": 4.9,
+    "no_of_people_rated": 848,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba4",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.711321,
+        "long": "83.0741248"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Alderson BMW",
+    "password": "$2a$10$V8jTxZuVUkqZoKxKxdI/0.j9akayz4Mc3T3XWcnouvlgfnYlhLJRS",
+    "email": "bitBattle_2018_547_@myKarmaa.com",
+    "rating": 3.92,
+    "no_of_people_rated": 907,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba3",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.7204544,
+        "long": "83.7018089"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Alderson European Motorcars - Lubbock",
+    "password": "$2a$10$YAB7Cvu7UHlp6IY8yRKj5.5uGPc2LCpf97GowLKgaiXohti37IHcG",
+    "email": "bitBattle_2018_257_@myKarmaa.com",
+    "rating": 3.88,
+    "no_of_people_rated": 862,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba5",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.45416,
+        "long": "82.956451"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Alderson Lexus",
+    "password": "$2a$10$uApQOD.cOdvexEX790AYyOKb3NI4NPzM0TVEm7/m7pw.qQuvdqxAu",
+    "email": "bitBattle_2018_546_@myKarmaa.com",
+    "rating": 2.64,
+    "no_of_people_rated": 147,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba6",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.4115449,
+        "long": "82.1864554"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Arrowhead",
+    "password": "$2a$10$TPxQS7sV2GihFpRTemrqbOMjt2b3WhoJIHGaGFSOAU2got02uzQf.",
+    "email": "bitBattle_2018_374_@myKarmaa.com",
+    "rating": 4.3,
+    "no_of_people_rated": 182,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba7",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.7523527,
+        "long": "83.2060046"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Scottsdale",
+    "password": "$2a$10$5/BiAo95ntMxUh5U1dZ5j.kg1yTaWh4l9tSyu.vTdjycw3LHUCAWW",
+    "email": "bitBattle_2018_437_@myKarmaa.com",
+    "rating": 4.04,
+    "no_of_people_rated": 627,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757ba9",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.1823495,
+        "long": "82.2260955"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Green Hyundai",
+    "password": "$2a$10$GVswq4G.qM.It4QdpEHVBujPSERBKGbZJXGQ9CgDCNHRpDkm8xQsS",
+    "email": "bitBattle_2018_218_@myKarmaa.com",
+    "rating": 4.49,
+    "no_of_people_rated": 177,
+    "__v": 0
+}, {
+    "_id": "5b8eda09f049190ac9757ba8",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.1659687,
+        "long": "82.8048829"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Green Lincoln Mazda",
+    "password": "$2a$10$2TeP5j6IHtblrDaXuIWmgebb9/9roxxIx6CB5NP96oBI1dsETN3Pa",
+    "email": "bitBattle_2018_215_@myKarmaa.com",
+    "rating": 4.68,
+    "no_of_people_rated": 234,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757baa",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.517423,
+        "long": "83.6797912"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Alderson Cadillac",
+    "password": "$2a$10$VbeiLF1U4.hGATbWG0jxh.PBB/0viV0pcfVGyXDMXkTPyEDfUewcC",
+    "email": "bitBattle_2018_548_@myKarmaa.com",
+    "rating": 4.65,
+    "no_of_people_rated": 391,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757bab",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.6970035,
+        "long": "83.1809397"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Green Toyota Scion Volkswagen Audi",
+    "password": "$2a$10$jtXmORduWos5GngNIdBIwec/qk.PayfmSVeYXqK/D.oN0qfWxF1Iq",
+    "email": "bitBattle_2018_216_@myKarmaa.com",
+    "rating": 2.53,
+    "no_of_people_rated": 686,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757bac",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.1131863,
+        "long": "82.515397"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Ted Russell Ford/ Lincoln/ Isuzu Parkside",
+    "password": "$2a$10$RItKU7zr91p4hMzFEDtq6ORCeCjlrafuTaMvb4bnfVJDMYXcmYU9.",
+    "email": "bitBattle_2018_583_@myKarmaa.com",
+    "rating": 2.29,
+    "no_of_people_rated": 614,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757bae",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.2147352,
+        "long": "82.7352023"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Green Nissan",
+    "password": "$2a$10$JKQVzFbjHLADgbUwUIPWnONHIoy6pp3NVZ/TKvyvqEyHwQgJoHsbG",
+    "email": "bitBattle_2018_217_@myKarmaa.com",
+    "rating": 4.62,
+    "no_of_people_rated": 827,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757bad",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.4855361,
+        "long": "83.0121178"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Ted Russell Ford / Lincoln Kingston Pike",
+    "password": "$2a$10$7oURrVMrK49IqA7ee3QK4.dU6XaKH0YS0RFOuSHbO7lYQ0e8sp9rW",
+    "email": "bitBattle_2018_582_@myKarmaa.com",
+    "rating": 4.56,
+    "no_of_people_rated": 704,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757baf",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.0299118,
+        "long": "82.1019564"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Green Dodge Kia Subaru",
+    "password": "$2a$10$X8RTZCfrgzKpl4kAH0L2a.k2mWpkLwUfruh/WpezvbSoBJXVxCMVy",
+    "email": "bitBattle_2018_219_@myKarmaa.com",
+    "rating": 3.6,
+    "no_of_people_rated": 104,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757bb0",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.013869,
+        "long": "82.7192475"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Route 18 Chrysler Jeep Dodge Ram",
+    "password": "$2a$10$4qpcZGpXGzkKebelydjzieA1VUDOrocw/I2oPI5BLav9ZCoFOhrjq",
+    "email": "bitBattle_2018_628_@myKarmaa.com",
+    "rating": 3.04,
+    "no_of_people_rated": 539,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb3",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 26.0476649,
+        "long": "82.7282226"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hoffman Lexus",
+    "password": "$2a$10$nOct0/vx0d2Ph99Xx7FQ7OYtgkzmdf/SlSk9Z5oyzbL3ATFjIc29m",
+    "email": "bitBattle_2018_42_@myKarmaa.com",
+    "rating": 3.79,
+    "no_of_people_rated": 832,
+    "__v": 0
+}, {
+    "_id": "5b8eda0af049190ac9757bb1",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.5947272,
+        "long": "82.9904781"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "BMW of Watertown",
+    "password": "$2a$10$myRCqfEFcGJq..f8JlfB.uNfxACa7oc8msyFTefKshXFKv/bu.2AS",
+    "email": "bitBattle_2018_604_@myKarmaa.com",
+    "rating": 4.78,
+    "no_of_people_rated": 856,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb2",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.8559808,
+        "long": "82.723967"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hoffman Audi Hartford",
+    "password": "$2a$10$GH4/gOBJsSdk0.zcmRkNsOvgS/YZvyrahLHv976XE37ImLUwbnsb6",
+    "email": "bitBattle_2018_93_@myKarmaa.com",
+    "rating": 2.16,
+    "no_of_people_rated": 701,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb4",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.6597181,
+        "long": "83.2146587"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hoffman Porsche",
+    "password": "$2a$10$OaZiJfkmUEIZxMHQDZq2wOPsbojJzYf0BX4cyubtaniPmcoVhxmUm",
+    "email": "bitBattle_2018_59_@myKarmaa.com",
+    "rating": 2.59,
+    "no_of_people_rated": 290,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb5",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.5864284,
+        "long": "83.5735122"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "DealerTrack TEST",
+    "password": "$2a$10$iAKEa9aS/QLCruoJW6R1POA05taBGw1sihwgttjR.NNwnHG1wdXUC",
+    "email": "bitBattle_2018_518_@myKarmaa.com",
+    "rating": 2.43,
+    "no_of_people_rated": 810,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb8",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.9032362,
+        "long": "83.0275023"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Freedom Jeep Chrysler",
+    "password": "$2a$10$oGQm0M3PuyHNP.PEoGtJnexdULBDfmy6zaDzKWImFUFQzC6ocplNC",
+    "email": "bitBattle_2018_674_@myKarmaa.com",
+    "rating": 3.13,
+    "no_of_people_rated": 220,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb6",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.4065577,
+        "long": "83.1155135"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "MBUSA Engineering Center",
+    "password": "$2a$10$cEsDerbyY9JxernBNGQJi.piG1XOMiT/HjVct/CIHp8/DfIGJ8vPe",
+    "email": "bitBattle_2018_652_@myKarmaa.com",
+    "rating": 2.85,
+    "no_of_people_rated": 928,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb7",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.2902902,
+        "long": "82.8667608"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Dodge Country",
+    "password": "$2a$10$i/abEu6SIMR5rNgYx9k7AuAUkDOCYSg6585Nxo1zSKef9.WaXm5kS",
+    "email": "bitBattle_2018_675_@myKarmaa.com",
+    "rating": 4.11,
+    "no_of_people_rated": 918,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bb9",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.7226684,
+        "long": "83.3853284"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "P & W BMW MINI",
+    "password": "$2a$10$nhxWSA.xpkRRkeGmG4d35eQswCe6pmqCZnC7QZwJ7uI8AqQuQPA4u",
+    "email": "bitBattle_2018_573_@myKarmaa.com",
+    "rating": 2.5,
+    "no_of_people_rated": 936,
+    "__v": 0
+}, {
+    "_id": "5b8eda0bf049190ac9757bba",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 26.0882787,
+        "long": "83.3064823"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Rochester - MN",
+    "password": "$2a$10$K22ImW1dXt0ObM3sjguc7utFEJOtlrRanjGbzkDu5oD2shRITs0nG",
+    "email": "bitBattle_2018_386_@myKarmaa.com",
+    "rating": 4.3,
+    "no_of_people_rated": 630,
+    "__v": 0
+}, {
+    "_id": "5b8eda0cf049190ac9757bbd",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.1247489,
+        "long": "83.2662005"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Pueblo Toyota",
+    "password": "$2a$10$uHgny/b.mr4yrGcsArSEy.uK8jKLC/QZz09vCY21eQNMOfFMQPY0u",
+    "email": "bitBattle_2018_691_@myKarmaa.com",
+    "rating": 2.5,
+    "no_of_people_rated": 551,
+    "__v": 0
+}, {
+    "_id": "5b8eda0cf049190ac9757bbb",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.9763523,
+        "long": "82.8429041"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Yochum CDJR",
+    "password": "$2a$10$h9i1.ElxNRxAaIS0CuycIOFOPOfSJnxVbPH1QIoEt7jM8eumyWjN2",
+    "email": "bitBattle_2018_688_@myKarmaa.com",
+    "rating": 2.14,
+    "no_of_people_rated": 228,
+    "__v": 0
+}, {
+    "_id": "5b8eda0cf049190ac9757bbc",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.9206642,
+        "long": "82.9366328"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Ted Russell Nissan",
+    "password": "$2a$10$6ZCK5I762Xm/spIpSSPht.epsB3Xsd/mVEeT.iNmH.HzRSTFzGJPK",
+    "email": "bitBattle_2018_690_@myKarmaa.com",
+    "rating": 4.38,
+    "no_of_people_rated": 987,
+    "__v": 0
+}, {
+    "_id": "5b8eda0cf049190ac9757bbe",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.4096229,
+        "long": "82.2401251"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of St. George",
+    "password": "$2a$10$CWqwwGdfHgpnv2M45Cc0GOjdopSBNTCnrOr3cLDuRbcaqpYGrN3kS",
+    "email": "bitBattle_2018_698_@myKarmaa.com",
+    "rating": 2.35,
+    "no_of_people_rated": 593,
+    "__v": 0
+}, {
+    "_id": "5b8eda0cf049190ac9757bbf",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.3619848,
+        "long": "83.1904744"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Acura Columbus",
+    "password": "$2a$10$aJHaDDYVqHhoUPE.Zn4Oku4.Qp61Ua/bZ64YPfdnW2b8b.nJ4Mg1.",
+    "email": "bitBattle_2018_709_@myKarmaa.com",
+    "rating": 2.24,
+    "no_of_people_rated": 314,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc2",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.6312483,
+        "long": "83.4932014"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Critz BMW ",
+    "password": "$2a$10$PayO6TAiLnEy0bwL4tHcd.3vsNIctqlOSyRLrXe1btvVxXpNpG636",
+    "email": "bitBattle_2018_739_@myKarmaa.com",
+    "rating": 3.85,
+    "no_of_people_rated": 482,
+    "__v": 0
+}, {
+    "_id": "5b8eda0cf049190ac9757bc0",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.4765354,
+        "long": "83.1165824"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Audi Annapolis",
+    "password": "$2a$10$LPo.NUwDahhLNBu9F6.KfukrPDsF2noAm8aCfAY6CKvvlsccAGg.W",
+    "email": "bitBattle_2018_729_@myKarmaa.com",
+    "rating": 2.04,
+    "no_of_people_rated": 113,
+    "__v": 0
+}, {
+    "_id": "5b8eda0cf049190ac9757bc1",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 26.1193079,
+        "long": "82.9059293"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Klein Honda",
+    "password": "$2a$10$9R2R87v6T.MYNk.bq6qIrO/wyouVyS8zwkcaFWWzIE1hdn2L5iMD.",
+    "email": "bitBattle_2018_724_@myKarmaa.com",
+    "rating": 2.15,
+    "no_of_people_rated": 591,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc3",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.5542059,
+        "long": "82.8113496"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Critz Auto Group ",
+    "password": "$2a$10$cJEvXlEawNZZdt9XbzcftuTIBscZDvwxavV32g/E6r6UHDEmpTbte",
+    "email": "bitBattle_2018_738_@myKarmaa.com",
+    "rating": 4.62,
+    "no_of_people_rated": 233,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc4",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.2055022,
+        "long": "83.3767003"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Audi Lubbock",
+    "password": "$2a$10$B4EBIG6I2tQ5VXK.7T9cd.wEs/p5vzYovDFZ9dPQaoJCxTZosplf2",
+    "email": "bitBattle_2018_730_@myKarmaa.com",
+    "rating": 4.75,
+    "no_of_people_rated": 495,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc7",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.095218,
+        "long": "83.2080559"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hoffman Honda",
+    "password": "$2a$10$QiMcL2QMd0w3k6lA7nkgEON8UsSP.9rGJArmpzZ4uqvQSxbvPjLfG",
+    "email": "bitBattle_2018_785_@myKarmaa.com",
+    "rating": 4.97,
+    "no_of_people_rated": 757,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc5",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.6492995,
+        "long": "82.6749749"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hoffman Toyota",
+    "password": "$2a$10$Z7qB5i.dKNhwI0Yi23N6NO38dADuEbUgsVbpWTajdIjFa454qMc12",
+    "email": "bitBattle_2018_784_@myKarmaa.com",
+    "rating": 2.72,
+    "no_of_people_rated": 540,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc6",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.6155099,
+        "long": "83.5176773"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hoffman Nissan",
+    "password": "$2a$10$6IDzQC0yKd1JN31dJoWpxuaroKCCxk5dZMoPJ9aKOQsiZz6JcCqWm",
+    "email": "bitBattle_2018_783_@myKarmaa.com",
+    "rating": 4.54,
+    "no_of_people_rated": 614,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc8",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.5155374,
+        "long": "83.7723293"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Jaguar Land Rover Solon",
+    "password": "$2a$10$7e9aLE9hEjVkzoLhhBGZIuO9lZBCGo6qId4CojLiRWCwoJe9mmsIm",
+    "email": "bitBattle_2018_772_@myKarmaa.com",
+    "rating": 3.33,
+    "no_of_people_rated": 209,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bc9",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.0756191,
+        "long": "83.6101295"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "BMW Cleveland",
+    "password": "$2a$10$4WhDi4PgLrfk.V2loaSopebFbvAbSL8JDkwfq5zKcf2fgh.le9shG",
+    "email": "bitBattle_2018_771_@myKarmaa.com",
+    "rating": 3.37,
+    "no_of_people_rated": 711,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bcc",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.6964492,
+        "long": "82.2288733"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Hoffman Ford Lincoln",
+    "password": "$2a$10$aulzmb5xHo0geD7zShkHJ.iXaXrZdnwyK14fbeXGhBgA8C075XcAW",
+    "email": "bitBattle_2018_803_@myKarmaa.com",
+    "rating": 3.43,
+    "no_of_people_rated": 184,
+    "__v": 0
+}, {
+    "_id": "5b8eda0df049190ac9757bca",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.846425,
+        "long": "83.6467911"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Grayson Hyundai/Subaru",
+    "password": "$2a$10$ZUE2V/U07SBbJejy08/Azu.3.A8MkeKvsWqLGSAws/6t9yAIcCRvO",
+    "email": "bitBattle_2018_794_@myKarmaa.com",
+    "rating": 2.49,
+    "no_of_people_rated": 756,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bcb",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.0667408,
+        "long": "83.3994523"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Grayson BMW",
+    "password": "$2a$10$owvY5.0bAsdWWuZPLG2j9etjZy9fsIq24Y.ExdOhyPODTa3abJH1u",
+    "email": "bitBattle_2018_793_@myKarmaa.com",
+    "rating": 3.68,
+    "no_of_people_rated": 265,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bcd",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.7551347,
+        "long": "83.0578827"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Mercedes-Benz of Fayetteville",
+    "password": "$2a$10$wpiCMvyAiBBd9ddMVfN2Feo30y2m7RQIJiqzYOybHdksAleJWWTMK",
+    "email": "bitBattle_2018_323_@myKarmaa.com",
+    "rating": 2.61,
+    "no_of_people_rated": 149,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bce",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.9266278,
+        "long": "83.2276862"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "myKaarma Dealership",
+    "password": "$2a$10$aV1RTm2mpHbiJR.aJrnbYuqX/lVjCcr0nXkPmH1pjjlMUnfSVgoLi",
+    "email": "bitBattle_2018_54_@myKarmaa.com",
+    "rating": 4.59,
+    "no_of_people_rated": 217,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bd1",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.764102,
+        "long": "82.3779998"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Cadillac of Naperville",
+    "password": "$2a$10$8C7i6pBYMWQuEPZAZgz0FeK9ZlCzN3RCXBj/tzsEmXWvNlF7ZtniO",
+    "email": "bitBattle_2018_891_@myKarmaa.com",
+    "rating": 4.55,
+    "no_of_people_rated": 718,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bcf",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 26.0654587,
+        "long": "83.0219136"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Subaru of Bend",
+    "password": "$2a$10$dSE5yW9a8Vb.OU5HDxs4Ju5CXIG.Tl7YDu.cIJewL/qVQCKdBCgsK",
+    "email": "bitBattle_2018_849_@myKarmaa.com",
+    "rating": 3.65,
+    "no_of_people_rated": 355,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bd0",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.7439967,
+        "long": "83.0850702"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Flag Chevrolet",
+    "password": "$2a$10$Kg8/RJyjlCwToAmy3QlsveoYK3oNLdMSXixDIx7S4DIB5ZvoWaPUi",
+    "email": "bitBattle_2018_890_@myKarmaa.com",
+    "rating": 4.89,
+    "no_of_people_rated": 836,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ef049190ac9757bd2",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 24.4491787,
+        "long": "82.9991802"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Honda Lancaster",
+    "password": "$2a$10$uehkb7O/nI9TcPUHiZ7BveRQrnK9HeX7ODdEVWdiNIGJbEY9DiAXy",
+    "email": "bitBattle_2018_896_@myKarmaa.com",
+    "rating": 2.07,
+    "no_of_people_rated": 985,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ff049190ac9757bd3",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.3170243,
+        "long": "83.4187068"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Winslow BMW of Colorado Springs",
+    "password": "$2a$10$hhwqF37dYog07hns8gOJJeHW3fswXSi/RGItlRHpnAbvOeq5RKThS",
+    "email": "bitBattle_2018_883_@myKarmaa.com",
+    "rating": 4.97,
+    "no_of_people_rated": 220,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ff049190ac9757bd6",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.8419196,
+        "long": "82.4625727"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "CJDR of Tuscaloosa",
+    "password": "$2a$10$WBEqlwLDId79YUkKfEsC4e30PG6UxxVtQEQ4zBHOr57/hXHYgyUM2",
+    "email": "bitBattle_2018_1029_@myKarmaa.com",
+    "rating": 2.1,
+    "no_of_people_rated": 143,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ff049190ac9757bd4",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.8283026,
+        "long": "83.2812854"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Audi Nashua",
+    "password": "$2a$10$Cji4kKfWWhbh1gYXaIYoT.gz4cHLpxxCy5WkwS9KD2SX.LLO/6QFG",
+    "email": "bitBattle_2018_984_@myKarmaa.com",
+    "rating": 4.87,
+    "no_of_people_rated": 997,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ff049190ac9757bd5",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.3151426,
+        "long": "82.1224796"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Porsche Nashua",
+    "password": "$2a$10$YTpt.Fb/IJzZX7sGuJeLKOvlzW2gfWiYuPc.VrKy/Il6tLhetTskS",
+    "email": "bitBattle_2018_983_@myKarmaa.com",
+    "rating": 4.41,
+    "no_of_people_rated": 379,
+    "__v": 0
+}, {
+    "_id": "5b8eda0ff049190ac9757bd7",
+    "address": {
+        "proper_address": "---enter your address---",
+        "lat": 25.8296624,
+        "long": "83.279509"
+    },
+    "inbox": [],
+    "outbox": [],
+    "name": "Heritage Cadillac",
+    "password": "$2a$10$KMIwsDgeqvE1Oi11Wy8QKujXpW9Eamn3flYvG6OdVPguGpch6nSlq",
+    "email": "bitBattle_2018_960_@myKarmaa.com",
+    "rating": 2.73,
+    "no_of_people_rated": 867,
+    "__v": 0
+}]

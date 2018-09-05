@@ -11,6 +11,8 @@ const MONGOOSE = require("mongoose"),
 
 // user schema
 let dealerSchema = MONGOOSE.Schema({
+
+      //  dealer id --> is created default by mongo as  _id
       name: {
             type: String,
             required: true,
@@ -22,6 +24,15 @@ let dealerSchema = MONGOOSE.Schema({
       email: {
             type: String,
             require: true,
+      },
+      rating: {
+            type: Number,
+            required: true
+      },
+
+      no_of_people_rated: {
+            type: Number,
+            required: true
       },
       address: {
             proper_address: {
@@ -91,8 +102,8 @@ function createAscendingIndex_on_dealer_email(DB, callback) {
             if (err) {
                   console.log("error while setting up indexing");
             }
-            console.log("index created  ", result, "<<<<<<<<" , collection_name, " collection");
+            console.log("index created  ", result, "<<<<<<<<", collection_name, " collection");
             // callback("result");
       });
-};
+}
 //? NOTE : Creating indexes in MongoDB is an idempotent operation. So running db.names.createIndex({name:1}) would create the index only if it didn't already exist.
