@@ -23,7 +23,7 @@ const CompanyModel = require("../models/company");
 API_ROUTER.get('/add_buyer', (req, res) => {
       let buyer = new BuyerModel({
             name: "prashant",
-            password: "jfalksdjlk;jasdl",
+            password: "000000",
             email: "prashant@gmail.com",
             address: {
                   proper_address: "sarai kale khan",
@@ -77,7 +77,7 @@ API_ROUTER.get('/add_buyer', (req, res) => {
 
       buyer = new BuyerModel({
             name: "rahul",
-            password: "jkalsjdflasdl",
+            password: "000000",
             email: "rahul@gmail.com",
             address: {
                   proper_address: "najafgarah",
@@ -132,7 +132,7 @@ API_ROUTER.get('/add_buyer', (req, res) => {
 API_ROUTER.get('/add_dealer', (req, res) => {
       let dealer = new DealerModel({
             name: "prashant",
-            password: "jfalksdjlk;jasdl",
+            password: "000000",
             email: "prashant@gmail.com",
             rating: 3, // out of 0 to 5
             no_of_people_rated: 232,
@@ -201,6 +201,7 @@ API_ROUTER.get("/build/", (req, res) => {
       function save_dealers() {
             let dealerList = require("./dealer.json");
             let dealer_size = dealerList.length;
+            console.log(dealer_size, "<<< dealersiz");
 
             dealerList.forEach((dealer, index) => {
                   dealer.email = "bitBattle_2018_" + dealer.id + "_@myKarmaa.com";
@@ -216,7 +217,7 @@ API_ROUTER.get("/build/", (req, res) => {
                   d.rating = dealer.rating;
                   d.no_of_people_rated = dealer.numOfPEopleRated;
                   d.address = {
-                        proper_address: "---enter your address---",
+                        proper_address: "---Not Available---",
                         lat: dealer.latitude,
                         long: dealer.longitude,
                   };
@@ -229,11 +230,12 @@ API_ROUTER.get("/build/", (req, res) => {
                               console.log(err);
                               throw new Error("dealer not saved ");
                         }
+                        console.log(`dealer saved ${index}`);
+                        if (dealer_size - 1 === index) {
+                              // map_and_save_cars_in_garage();
+                              res.send("Dealers uploaded successfully");
+                        }
                   });
-
-                  if (dealer_size === index) {
-                        map_and_save_cars_in_garage();
-                  }
             });
       }
 
@@ -243,17 +245,21 @@ API_ROUTER.get("/build/", (req, res) => {
             console.log("start saving cars");
 
 
-            const readStream = FS.createReadStream(PATH.join(__dirname, './carRecords/car_7.json'));
+            const readStream = FS.createReadStream(PATH.join(__dirname, './carRecords/car_half_half.json'));
             const parseStream = BIG_JSON.createParseStream();
 
+            let totalEntry = 3636;
             parseStream.on('data', (pojo) => {
+                  let count = 1;
 
                   for (let i in pojo) {
-                        console.log(i);
+                        // console.log(pojo[i]);
+                        // console.log("____________________");
+
                         let carRecord = pojo[i];
 
                         let company_name = carRecord.make.toLowerCase();
-                        let company_location = "USA";
+                        let company_location = "Not Available";
 
                         // build car
                         let car = {
@@ -269,18 +275,24 @@ API_ROUTER.get("/build/", (req, res) => {
                         };
 
 
-                        console.log(carRecord, carRecord.DealerID, "    <<<");
+                        // console.log(carRecord, carRecord.DealerID, "    <<<");
+
+
                         // ? search for the correct dealer --> for mapping
-                        let dealer_email = "bitBattle_2018_" + carRecord.DealerID + "_@myKarmaa.com";
+                        let dealer_email = "bitBattle_2018_" + carRecord.dealerId + "_@myKarmaa.com";
 
                         DealerModel.find({
                               email: dealer_email
                         }, (err, dealer) => {
                               if (err) {
-                                    console.log("Error : dealer not found for this car");
-                                    throw new Error(err);
+                                    console.log("Error : dealer not found for this car <<<<");
+                                    // throw new Error(err);
                               }
-                              // console.log(dealer_email, dealer);
+                              console.log(`dealer found ${i}`);
+
+                              if (dealer[0] === undefined) {
+                                    console.log(dealer_email, carRecord, carRecord.DealerID, dealer);
+                              }
                               car.dealer_id = dealer[0]._id; // ? update the dealer_id
 
                               // ? check if the company exists : and if not then create one --> upsert will do that
@@ -301,9 +313,15 @@ API_ROUTER.get("/build/", (req, res) => {
                                     upsert: true // ? so if it doesn't exist create one
                               }, (err) => {
                                     if (err) {
-                                          console.log("Error : while pushing car to the compay's cars");
-                                          throw new Error(err);
+                                          console.log(`Error : while pushing car to the compay's cars \n ${err}`);
+                                          // throw new Error(err);
                                     }
+
+                                    if (totalEntry === totalEntry) {
+                                          res.end(`UPloaded all Cars successfully`);
+                                    }
+                                    count++;
+                                    console.log(`updated ${i}`);
                               });
                         });
                         // console.log(index, "<<<<<<<<      INDEX--OUTER   ", totalCar);
@@ -312,7 +330,7 @@ API_ROUTER.get("/build/", (req, res) => {
 
             parseStream.on('end', () => {
                   console.log("==== end parsing json file ====");
-                  build_complete();
+                  // build_complete();
             });
 
             readStream.pipe(parseStream);

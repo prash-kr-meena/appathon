@@ -82,14 +82,15 @@
     function add_markers(map) {
 
         array_Records_Object.forEach(cur_record => {
+            console.log(cur_record);
 
             // CREATE Dealer_MARKER : object --> to put in the   dealer_markers_list ARRAY,  & plot on map
             let dealer_marker = {
                 marker_reference: undefined, // NEEDED to attach listner for info window
-                dealer_name: cur_record.DealerName,
+                dealer_name: cur_record.name,
                 marker_location: {
-                    lat: parseFloat(cur_record.DealerLongitude), // DELHI
-                    lng: parseFloat(cur_record.DealerLatitude)
+                    lat: cur_record.address.lat , // DELHI
+                    lng: cur_record.address.long
                 }
             }
             delear_markers_list.push(dealer_marker); // ADDING to the  LIST
@@ -157,7 +158,6 @@
         // newScript.setAttribute('src', 'file.js');
 
     }
-
 </script>
 
 </html>

@@ -44,7 +44,7 @@ let dealerSchema = MONGOOSE.Schema({
                   required: true
             },
             long: {
-                  type: String,
+                  type: Number,
                   requried: true
             }
       },

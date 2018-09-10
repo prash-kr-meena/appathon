@@ -9,6 +9,19 @@ const express = require('express'),
       MONGOOSE = require("mongoose"); // middleware to connect node app & mongoDB | Elegant MongoDB object modeling for Node.js
 
 
+const BODY_PARSER = require("body-parser");
+
+
+
+//! body parser config
+app.use(BODY_PARSER.json()); // support parsing of application/json type post data
+
+app.use(BODY_PARSER.urlencoded({ //support parsing of application/x-www-form-urlencoded post data
+      extended: true
+}));
+
+
+
 // add timestamps in front of log messages
 require('console-stamp')(console, '[HH:MM:ss.l]');
 
@@ -36,6 +49,15 @@ DB.on('error', (db_err) => {
       console.log("DB ERROR : " + db_err);
 });
 
+
+const cors = require('cors');
+
+var corsOptions = {
+      origin: '*',
+      optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+
+app.use(cors(corsOptions));
 
 
 
@@ -82,6 +104,18 @@ app.get(`/map_view`, (req, res) => {
 });
 
 
+app.get(`/map_view_object`, (req, res) => {
+
+      let json_object_list = require("./saved_dealer.json");
+      // console.log(json_object_list);
+      // /
+      res.render("map_view", {
+            config: google_maps_config,
+            array_Records_Object: JSON.stringify(json_object_list),
+      });
+});
+
+
 
 
 
@@ -122,11 +156,14 @@ const BUYER_ROUTER = require("./route/buyer");
 app.use("/buyer/", BUYER_ROUTER);
 
 
+const DEALER_ROUTER = require("./route/dealer");
+app.use("/dealer/", DEALER_ROUTER);
 
 
 // process.env.PORT   process.env.IP
-app.listen(3000, () => {
-      console.log("server live");
+let port = 3000;
+app.listen(port, () => {
+      console.log(`server live ${port}`);
 });
 
 

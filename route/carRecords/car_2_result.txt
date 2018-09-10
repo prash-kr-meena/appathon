@@ -1,0 +1,1398 @@
+{
+        "_id" : ObjectId("5b8ef8b78cc390cca71aa0e5"),
+        "company_location" : "USA",
+        "company_name" : "buick",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef8b6d1a7c2156417de56"),
+                        "model" : "ENCLAVE",
+                        "year" : 2014,
+                        "PriceInINR" : 2537993,
+                        "trim" : "Leather FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.6L V6 DOHC 24V",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b6d1a7c2156417de5d"),
+                        "model" : "LaCrosse",
+                        "year" : 2011,
+                        "PriceInINR" : 4677427,
+                        "trim" : "CXL FWD",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "3.6L V6 DOHC 24V",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417de8e"),
+                        "model" : "ENCORE",
+                        "year" : 2013,
+                        "PriceInINR" : 4808616,
+                        "trim" : "Leather FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "1.4L L4 DOHC 16V TURBO",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417dece"),
+                        "model" : "LaCrosse",
+                        "year" : 2011,
+                        "PriceInINR" : 868875,
+                        "trim" : "CXL FWD",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.4L L4 DOHC 16V",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b65a"),
+                        "model" : "VERANO",
+                        "year" : 2013,
+                        "PriceInINR" : 4380113,
+                        "trim" : "Base",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.4L L4 DOHC 16V FFV",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef8b78cc390cca71aa0e7"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef8b6d1a7c2156417de57"),
+                        "model" : "TERRAIN",
+                        "year" : 2013,
+                        "PriceInINR" : 3851710,
+                        "trim" : "SLE2 FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V FFV",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b6d1a7c2156417de5b"),
+                        "model" : "YUKON",
+                        "year" : 2015,
+                        "PriceInINR" : 3129397,
+                        "trim" : "SLE 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "5.3L V8 OHV 16V",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b659"),
+                        "model" : "SIERRA 1500",
+                        "year" : 2014,
+                        "PriceInINR" : 3649025,
+                        "trim" : "SLE Crew Cab 2WD",
+                        "engine" : "CREW CAB PICKUP 4-DR",
+                        "body" : "5.3L V8 OHV 16V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b666"),
+                        "model" : "TERRAIN",
+                        "year" : 2012,
+                        "PriceInINR" : 1896832,
+                        "trim" : "SLT1 FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.0L V6 DOHC 24V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b650"),
+                        "model" : "ACADIA",
+                        "year" : 2012,
+                        "PriceInINR" : 2541355,
+                        "trim" : "Denali AWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.6L V6 DOHC 24V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef8b78cc390cca71aa0e6"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef8b6d1a7c2156417de59"),
+                        "model" : "Acadia",
+                        "year" : 2012,
+                        "PriceInINR" : 3805008,
+                        "trim" : "Denali FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.6L V6 DOHC 24V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef8b78cc390cca71aa0e8"),
+        "company_location" : "USA",
+        "company_name" : "chevrolet",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef8b6d1a7c2156417de58"),
+                        "model" : "SILVERADO 2500HD",
+                        "year" : 2014,
+                        "PriceInINR" : 840547,
+                        "trim" : "LT Crew Cab 4WD",
+                        "engine" : "CREW CAB PICKUP 4-DR",
+                        "body" : "6.6L V8 OHV 32V TURBO DIESEL",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417de7e"),
+                        "model" : "Impala",
+                        "year" : 2013,
+                        "PriceInINR" : 951600,
+                        "trim" : "LT (Fleet)",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "3.6L V6 DOHC 16V FFV",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417de83"),
+                        "model" : "SILVERADO 1500",
+                        "year" : 2014,
+                        "PriceInINR" : 3321753,
+                        "trim" : "1LT Crew Cab 2WD",
+                        "engine" : "CREW CAB PICKUP 4-DR",
+                        "body" : "4.3L V6 OHV 12V",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417de88"),
+                        "model" : "SUBURBAN",
+                        "year" : 2013,
+                        "PriceInINR" : 2112479,
+                        "trim" : "LT 1500 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "5.3L V8 OHV 16V FFV",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417de90"),
+                        "model" : "SONIC",
+                        "year" : 2012,
+                        "PriceInINR" : 4318533,
+                        "trim" : "2LT Sedan",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "1.8L L4 DOHC 24V",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417de91"),
+                        "model" : "SILVERADO 2500HD",
+                        "year" : 2014,
+                        "PriceInINR" : 1716688,
+                        "trim" : "LT Crew Cab 4WD",
+                        "engine" : "CREW CAB PICKUP 4-DR",
+                        "body" : "6.0L V8 OHV 16V FFV",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417de9a"),
+                        "model" : "SILVERADO 1500",
+                        "year" : 2014,
+                        "PriceInINR" : 1824573,
+                        "trim" : "1LT Crew Cab 2WD",
+                        "engine" : "CREW CAB PICKUP 4-DR",
+                        "body" : "4.3L V6 OHV 12V",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417dead"),
+                        "model" : "MALIBU",
+                        "year" : 2012,
+                        "PriceInINR" : 4585365,
+                        "trim" : "1LT",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.4L L4 DOHC 16V",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417deb0"),
+                        "model" : "EQUINOX",
+                        "year" : 2014,
+                        "PriceInINR" : 3128963,
+                        "trim" : "2LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V FFV",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417deb1"),
+                        "model" : "CRUZE",
+                        "year" : 2013,
+                        "PriceInINR" : 2326454,
+                        "trim" : "2LT Auto",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "1.4L L4 DOHC 16V TURBO",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417deba"),
+                        "model" : "TAHOE",
+                        "year" : 2014,
+                        "PriceInINR" : 2441207,
+                        "trim" : "LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "5.3L V8 OHV 16V FFV",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417ded0"),
+                        "model" : "SUBURBAN",
+                        "year" : 2014,
+                        "PriceInINR" : 699877,
+                        "trim" : "LT 1500 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "5.3L V8 OHV 16V FFV",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417decf"),
+                        "model" : "Silverado 2500HD",
+                        "year" : 2014,
+                        "PriceInINR" : 3927040,
+                        "trim" : "LT Crew Cab 4WD",
+                        "engine" : "CREW CAB PICKUP 4-DR",
+                        "body" : "6.6L V8 OHV 32V TURBO DIESEL",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417dee9"),
+                        "model" : "MALIBU",
+                        "year" : 2013,
+                        "PriceInINR" : 1806130,
+                        "trim" : "2LT",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.5L L4 DOHC 16V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417def1"),
+                        "model" : "MALIBU",
+                        "year" : 2014,
+                        "PriceInINR" : 2256925,
+                        "trim" : "1TZ",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.5L L4 DOHC 16V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417def5"),
+                        "model" : "CRUZE",
+                        "year" : 2013,
+                        "PriceInINR" : 2934527,
+                        "trim" : "2LT Auto",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "1.4L L4 DOHC 16V TURBO",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417df06"),
+                        "model" : "TAHOE",
+                        "year" : 2014,
+                        "PriceInINR" : 509801,
+                        "trim" : "LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "5.3L V8 OHV 16V FFV",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417df07"),
+                        "model" : "TRAVERSE",
+                        "year" : 2012,
+                        "PriceInINR" : 2339777,
+                        "trim" : "LT FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.6L V6 DOHC 24V",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417df08"),
+                        "model" : "Equinox",
+                        "year" : 2013,
+                        "PriceInINR" : 816831,
+                        "trim" : "1LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417df0a"),
+                        "model" : "CRUZE",
+                        "year" : 2014,
+                        "PriceInINR" : 4750657,
+                        "trim" : "2LT Auto",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "1.4L L4 DOHC 16V TURBO",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417df12"),
+                        "model" : "IMPALA",
+                        "year" : 2013,
+                        "PriceInINR" : 2080419,
+                        "trim" : "LTZ",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "3.6L V6 DOHC 16V FFV",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef8b7d1a7c2156417df18"),
+                        "model" : "TAHOE",
+                        "year" : 2014,
+                        "PriceInINR" : 503624,
+                        "trim" : "LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "5.3L V8 OHV 16V FFV",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5b5"),
+                        "model" : "MALIBU",
+                        "year" : 2012,
+                        "PriceInINR" : 2784977,
+                        "trim" : "2LT",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.4L L4 DOHC 16V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5bd"),
+                        "model" : "TAHOE",
+                        "year" : 2014,
+                        "PriceInINR" : 2879034,
+                        "trim" : "LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "5.3L V8 OHV 16V FFV",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5c0"),
+                        "model" : "CRUZE",
+                        "year" : 2014,
+                        "PriceInINR" : 4635125,
+                        "trim" : "1LT Auto",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "1.4L L4 DOHC 16V TURBO",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5cb"),
+                        "model" : "CAMARO",
+                        "year" : 2013,
+                        "PriceInINR" : 4579224,
+                        "trim" : "Coupe 1LT",
+                        "engine" : "COUPE 2-DR",
+                        "body" : "3.6L V6 DOHC 24V FFV",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5dd"),
+                        "model" : "EQUINOX",
+                        "year" : 2010,
+                        "PriceInINR" : 4859649,
+                        "trim" : "LT1 FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b5fe"),
+                        "model" : "EQUINOX",
+                        "year" : 2014,
+                        "PriceInINR" : 3994008,
+                        "trim" : "1LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V FFV",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b602"),
+                        "model" : "IMPALA",
+                        "year" : 2013,
+                        "PriceInINR" : 1810911,
+                        "trim" : "LT (Fleet)",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "3.6L V6 DOHC 16V FFV",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b605"),
+                        "model" : "Traverse",
+                        "year" : 2014,
+                        "PriceInINR" : 1992393,
+                        "trim" : "2LT FWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.6L V6 DOHC 24V",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b614"),
+                        "model" : "EQUINOX",
+                        "year" : 2013,
+                        "PriceInINR" : 4986225,
+                        "trim" : "2LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b627"),
+                        "model" : "EQUINOX",
+                        "year" : 2013,
+                        "PriceInINR" : 4916434,
+                        "trim" : "1LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b63b"),
+                        "model" : "SILVERADO 2500HD",
+                        "year" : 2015,
+                        "PriceInINR" : 1625207,
+                        "trim" : "LT Crew Cab 4WD",
+                        "engine" : "CREW CAB PICKUP 4-DR",
+                        "body" : "6.6L V8 OHV 32V TURBO DIESEL",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b64f"),
+                        "model" : "CRUZE",
+                        "year" : 2014,
+                        "PriceInINR" : 1488121,
+                        "trim" : "2LT Auto",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "1.4L L4 DOHC 16V TURBO",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b656"),
+                        "model" : "EQUINOX",
+                        "year" : 2014,
+                        "PriceInINR" : 3649718,
+                        "trim" : "2LT 2WD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.4L L4 DOHC 16V FFV",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef8b78cc390cca71aa0e9"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef8b6d1a7c2156417de5a"),
+                        "model" : "ACADIA",
+                        "year" : 2014,
+                        "PriceInINR" : 1730235,
+                        "trim" : "Denali AWD",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.6L V6 DOHC 24V",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785d"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef9c08cc390cca71aa2df"),
+        "company_location" : "USA",
+        "company_name" : "subaru",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5d6"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2012,
+                        "PriceInINR" : 2071904,
+                        "trim" : "2.5i Premium",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "PREM",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5d4"),
+                        "model" : "FORESTER",
+                        "year" : 2015,
+                        "PriceInINR" : 875658,
+                        "trim" : "2.5i Premium",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.5L H4 SOHC 16V",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5d5"),
+                        "model" : "OUTBACK",
+                        "year" : 2010,
+                        "PriceInINR" : 528967,
+                        "trim" : "2.5i Premium",
+                        "engine" : "2.5L H4 DOHC 16V",
+                        "body" : "PRE AT",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f2"),
+                        "model" : "OUTBACK",
+                        "year" : 2014,
+                        "PriceInINR" : 4338918,
+                        "trim" : "2.5i Premium",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.5I CVT",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f0"),
+                        "model" : "XV CROSSTREK",
+                        "year" : 2013,
+                        "PriceInINR" : 4231952,
+                        "trim" : "2.0 Premium",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.0I CVT",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f7"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2013,
+                        "PriceInINR" : 4641607,
+                        "trim" : "TAUPE",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "WAGON",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f3"),
+                        "model" : "LEGACY",
+                        "year" : 2014,
+                        "PriceInINR" : 3753710,
+                        "trim" : "2.5i Limited",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.5I CVY",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f5"),
+                        "model" : "XV CROSSTREK HYBRID",
+                        "year" : 2014,
+                        "PriceInINR" : 3972469,
+                        "trim" : "2.0i Touring",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "HYBRID CVT",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f8"),
+                        "model" : "OUTBACK",
+                        "year" : 2013,
+                        "PriceInINR" : 1167565,
+                        "trim" : "2.5i Premium",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.5I CVT",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5fc"),
+                        "model" : "FORESTER",
+                        "year" : 2015,
+                        "PriceInINR" : 4899362,
+                        "trim" : "2.5i Premium",
+                        "engine" : "2.5L H4 SOHC 16V",
+                        "body" : "4DR AUTO 2.5I PREMIUM PZE",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5fa"),
+                        "model" : "OUTBACK",
+                        "year" : 2015,
+                        "PriceInINR" : 4881726,
+                        "trim" : "IVORY",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "WAGON",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f9"),
+                        "model" : "LEGACY",
+                        "year" : 2015,
+                        "PriceInINR" : 1330915,
+                        "trim" : "BLC",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.5I CVT",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f1"),
+                        "model" : "FORESTER 2.5I",
+                        "year" : 2014,
+                        "PriceInINR" : 4797717,
+                        "trim" : "2.5i Limited",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.5I CVT",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f6"),
+                        "model" : "OUTBACK 2.5I PREM",
+                        "year" : 2010,
+                        "PriceInINR" : 3085071,
+                        "trim" : "2.5i Premium",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "WAGON",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5fb"),
+                        "model" : "FORESTER",
+                        "year" : 2015,
+                        "PriceInINR" : 4952703,
+                        "trim" : "GRAY",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.5I P",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b617"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2012,
+                        "PriceInINR" : 815532,
+                        "trim" : "2.5i Premium",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "PREM",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b61b"),
+                        "model" : "OUTBACK",
+                        "year" : 2015,
+                        "PriceInINR" : 826740,
+                        "trim" : "BLC",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "3.6R",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b61c"),
+                        "model" : "Legacy",
+                        "year" : 2013,
+                        "PriceInINR" : 1535813,
+                        "trim" : "2.5i Premium",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "2.5L H4 SOHC 16V",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b61e"),
+                        "model" : "TRIBECA",
+                        "year" : 2011,
+                        "PriceInINR" : 2745994,
+                        "trim" : "Limited",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "3.6L H6 DOHC 24V",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b61a"),
+                        "model" : "FORESTER",
+                        "year" : 2015,
+                        "PriceInINR" : 2635994,
+                        "trim" : "GRA",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.5I",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b620"),
+                        "model" : "IMPREZA",
+                        "year" : 2014,
+                        "PriceInINR" : 3888466,
+                        "trim" : "TAU",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.0I CVT",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b621"),
+                        "model" : "LEGACY 2.5GT PREM",
+                        "year" : 2010,
+                        "PriceInINR" : 4638197,
+                        "trim" : "TAUPE",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "SEDAN",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b61f"),
+                        "model" : "IMPREZA 2.0I",
+                        "year" : 2012,
+                        "PriceInINR" : 4834656,
+                        "trim" : "2.0i Sport Premium",
+                        "engine" : "2.0L H4 DOHC 16V",
+                        "body" : "2.0I PRE",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b618"),
+                        "model" : "LEGACY",
+                        "year" : 2015,
+                        "PriceInINR" : 3134607,
+                        "trim" : "IVR",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "4DR SDN H4 AUTO 2.5I PREM",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b61d"),
+                        "model" : "IMPREZA WRX STI",
+                        "year" : 2013,
+                        "PriceInINR" : 4188162,
+                        "trim" : "STI 4-Door",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "SEDAN *SALVAGE*",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b622"),
+                        "model" : "OUTBACK",
+                        "year" : 2015,
+                        "PriceInINR" : 4106771,
+                        "trim" : "BLC",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.5I CVT",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b640"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2012,
+                        "PriceInINR" : 1062957,
+                        "trim" : "2.5i Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "4DR WGN H4 AUTO 2.5I LIMI",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b63c"),
+                        "model" : "FORESTER 2.5X",
+                        "year" : 2010,
+                        "PriceInINR" : 4116419,
+                        "trim" : "2.5X Premium",
+                        "engine" : "2.5L H4 SOHC 16V",
+                        "body" : "2.5X PRE",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b645"),
+                        "model" : "FORESTER",
+                        "year" : 2015,
+                        "PriceInINR" : 3572372,
+                        "trim" : "2.5i Premium",
+                        "engine" : "2.5L H4 SOHC 16V",
+                        "body" : "AT PRE",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b63d"),
+                        "model" : "OUTBACK",
+                        "year" : 2014,
+                        "PriceInINR" : 2275693,
+                        "trim" : "BLC",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "LTD EDF04",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b641"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2014,
+                        "PriceInINR" : 4465421,
+                        "trim" : "2.5i",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.5I CVT",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b63e"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2013,
+                        "PriceInINR" : 1178726,
+                        "trim" : "2.5i Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "LTD CVT",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b642"),
+                        "model" : "FORESTER 2.5I",
+                        "year" : 2014,
+                        "PriceInINR" : 1344418,
+                        "trim" : "GRAY",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.5I PR",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b643"),
+                        "model" : "IMPREZA",
+                        "year" : 2014,
+                        "PriceInINR" : 2058127,
+                        "trim" : "GRAY",
+                        "engine" : "2.0L H4 DOHC 16V",
+                        "body" : "2.0I LT",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b646"),
+                        "model" : "OUTBACK",
+                        "year" : 2013,
+                        "PriceInINR" : 4468504,
+                        "trim" : "2.5i Limited",
+                        "engine" : "2.5L H4 DOHC 16V",
+                        "body" : "2.5I CVT",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b647"),
+                        "model" : "FORESTER 2.5I",
+                        "year" : 2014,
+                        "PriceInINR" : 4718804,
+                        "trim" : "GRAY",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "LIMITED",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b648"),
+                        "model" : "FORESTER 2.5XT",
+                        "year" : 2013,
+                        "PriceInINR" : 548774,
+                        "trim" : "GRAY",
+                        "engine" : "2.5L H4 SOHC 16V",
+                        "body" : "SUV TOURING",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b63f"),
+                        "model" : "IMPREZA",
+                        "year" : 2014,
+                        "PriceInINR" : 3173353,
+                        "trim" : "TAU",
+                        "engine" : "2.0L H4 DOHC 16V",
+                        "body" : "2.0I 5MT",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b644"),
+                        "model" : "IMPREZA WAGON",
+                        "year" : 2011,
+                        "PriceInINR" : 2345137,
+                        "trim" : "2.5i Premium 5-Door",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "5DR MAN I PREMIUM",
+                        "color" : "Grey",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b660"),
+                        "model" : "Impreza",
+                        "year" : 2014,
+                        "PriceInINR" : 4010325,
+                        "trim" : "2.0i Sport Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.0L H4 DOHC 16V",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b661"),
+                        "model" : "FORESTER",
+                        "year" : 2010,
+                        "PriceInINR" : 1257545,
+                        "trim" : "2.5X Premium",
+                        "engine" : "2.5L H4 SOHC 16V",
+                        "body" : "4DR CUV",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b65d"),
+                        "model" : "FORESTER",
+                        "year" : 2010,
+                        "PriceInINR" : 4124384,
+                        "trim" : "2.5X Premium",
+                        "engine" : "2.5L H4 SOHC 16V",
+                        "body" : "SPORT UTILITY 4-DR",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b667"),
+                        "model" : "OUTBACK",
+                        "year" : 2010,
+                        "PriceInINR" : 4966039,
+                        "trim" : "2.5i Premium",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.5I PRE",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b65e"),
+                        "model" : "CROSSTREK",
+                        "year" : 2013,
+                        "PriceInINR" : 4558729,
+                        "trim" : "2.0 Limited",
+                        "engine" : "2.0L L4 DOHC 16V",
+                        "body" : "PREM",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b663"),
+                        "model" : "IMPREZA 2.0I",
+                        "year" : 2014,
+                        "PriceInINR" : 2278312,
+                        "trim" : "GRAY",
+                        "engine" : "2.0L H4 DOHC 16V",
+                        "body" : "5DR AUTO 2.0I PREMIUM",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b668"),
+                        "model" : "FORESTER 2.5X",
+                        "year" : 2013,
+                        "PriceInINR" : 4582948,
+                        "trim" : "2.5X",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.5X",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b65f"),
+                        "model" : "OUTBACK",
+                        "year" : 2011,
+                        "PriceInINR" : 1345551,
+                        "trim" : "3.6R Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "3.6R LTD",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b664"),
+                        "model" : "LEGACY 2.5I",
+                        "year" : 2011,
+                        "PriceInINR" : 1829954,
+                        "trim" : "2.5i Premium",
+                        "engine" : "2.5L H4 SOHC 16V",
+                        "body" : "SEDAN",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b669"),
+                        "model" : "IMPREZA 2.0I",
+                        "year" : 2013,
+                        "PriceInINR" : 2332461,
+                        "trim" : "2.0i Sport Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.0I SPT CVT",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b66b"),
+                        "model" : "Forester",
+                        "year" : 2010,
+                        "PriceInINR" : 4390165,
+                        "trim" : "2.5X Limited",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "2.5L H4 SOHC 16V",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b66c"),
+                        "model" : "FORESTER 2.5X",
+                        "year" : 2010,
+                        "PriceInINR" : 1363547,
+                        "trim" : "2.5X",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "X AT",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b66a"),
+                        "model" : "IMPREZA",
+                        "year" : 2014,
+                        "PriceInINR" : 4990960,
+                        "trim" : "BLC",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.0I 5MT",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b66e"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2015,
+                        "PriceInINR" : 4204290,
+                        "trim" : "GRAY",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "WAGON",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b66f"),
+                        "model" : "XV CROSSTREK",
+                        "year" : 2014,
+                        "PriceInINR" : 1412780,
+                        "trim" : "2.0 Limited",
+                        "engine" : "2.0L L4 DOHC 16V",
+                        "body" : "2.0I 5MT",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b670"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2011,
+                        "PriceInINR" : 2809364,
+                        "trim" : "2.5i Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "WAGON",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b671"),
+                        "model" : "XV CROSSTREK",
+                        "year" : 2014,
+                        "PriceInINR" : 2931393,
+                        "trim" : "BLC",
+                        "engine" : "2.0L L4 DOHC 16V",
+                        "body" : "2.5I CVT",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b66d"),
+                        "model" : "Impreza",
+                        "year" : 2012,
+                        "PriceInINR" : 570266,
+                        "trim" : "2.0i Sport Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.0L H4 DOHC 16V",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785f"
+                },
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b672"),
+                        "model" : "OUTBACK 2.5I",
+                        "year" : 2013,
+                        "PriceInINR" : 782120,
+                        "trim" : "2.5i Limited",
+                        "engine" : "WAGON 4-DR",
+                        "body" : "2.5I CVT",
+                        "color" : "Silver",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef9c08cc390cca71aa300"),
+        "company_location" : "USA",
+        "company_name" : "nissan",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef9c0f0412315aa07b5f4"),
+                        "model" : "ROGUE",
+                        "year" : 2011,
+                        "PriceInINR" : 3604295,
+                        "trim" : "S AWD Krom Edition",
+                        "engine" : "SPORT UTILITY 4-DR",
+                        "body" : "AT AWD 5DR S",
+                        "color" : "Yellow",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef9c18cc390cca71aa323"),
+        "company_location" : "USA",
+        "company_name" : "hyundai",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b619"),
+                        "model" : "VELOSTER",
+                        "year" : 2012,
+                        "PriceInINR" : 1456940,
+                        "trim" : "Base",
+                        "engine" : "COUPE 2-DR",
+                        "body" : "3DR S5SP",
+                        "color" : "Black",
+                        "transmission_type" : "Manual",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("5b8ef9c18cc390cca71aa36a"),
+        "company_location" : "USA",
+        "company_name" : "mitsubishi",
+        "__v" : 0,
+        "cars" : [
+                {
+                        "_id" : ObjectId("5b8ef9c1f0412315aa07b665"),
+                        "model" : "LANCER",
+                        "year" : 2011,
+                        "PriceInINR" : 2549521,
+                        "trim" : "Evolution GSR",
+                        "engine" : "SEDAN 4-DR",
+                        "body" : "4DR SDN MAN EVOLUTION GSR",
+                        "color" : "Metallic White",
+                        "transmission_type" : "Automatic",
+                        "dealer_id" : "5b8ee03ffe42df0d94de785e"
+                }
+        ]
+}
+
+
+
+db.companies.aggregate([
+  { $match: { company_name: { $in: ["bmw"] } } },
+  { $unwind: "cars" },
+  { $replaceRoot: { newRoot: "cars" } },
+
+    $match: {
+      transmission_type: "Manual",
+      color: "Silver",
+      year: 2014,
+      price: { $gt: 0, $lt: 50000000 }
+    }
+])
+
+
+db.companies.aggregate([
+  { $match: { company_name: { $in: ["gmc"] } } },
+  { $unwind: "$cars" },
+  { $replaceRoot: { newRoot: "$cars" } },
+  {
+    $match: {
+      transmission_type: "Manual",
+      color: "Black",
+      year: 2014,
+      price: { $gt: 0, $lt: 50000000 }
+    }
+  }
+])

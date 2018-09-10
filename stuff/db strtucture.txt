@@ -1,0 +1,209 @@
+ if( db.car.find(company_name) == true)
+  db.car.company_name.save
+
+   carsGarage {
+    	bmw: [
+    			car1 {
+    			    Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
+    			},
+    			car2 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
+
+    			},car3 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
+
+    			}
+    		],
+
+    	jaguar: [
+    			car1 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
+
+    			},
+    			car2 {
+    				Model,  Year, PriceInINR,  Trim,
+    				Engine, Body,color ,transmittion_type;
+    				dealer - id_2: <<
+
+    			}
+              ],
+    	ferrari [
+    			{-- -- --}
+    			{-- -- --}
+    			{-- -- --}
+    		]
+    }
+
+
+
+
+==================================================
+
+
+   carsGarage {
+
+    		car1 { bmw ,
+    		     Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		},
+    		car2 {bmw ,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		},car3 {jaguar ,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		}
+
+
+    		car4 { bmw,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		},
+    		car5 { jaguar,
+    			Model,  Year, PriceInINR,  Trim,
+    			Engine, Body,color ,transmittion_type;
+    			dealer - id_2: <<
+    		}
+
+
+    		{ ferrari -- -- --}
+    		{ ferrari -- -- --}
+    		{ ferrari -- -- --}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+user {
+	name;
+	email;
+	pass:
+
+	address {
+			proper_string: -- - geocoding API and get the lat & lang and update the db lat long
+			for corrospnding user
+			lat:
+			lng:
+	}
+	inbox: [
+		message_1 {
+			from: content: timestamp:
+		}
+
+		message_2 {
+			from: content: timestamp:
+		}
+
+		message_3 {
+			from: content: timestamp:
+		}
+	]
+	outbox: [
+			message_1 {
+				title: to: content: timestamp:
+			}
+
+			message_2 {
+				title: to: content: timestamp:
+			}
+
+			message_3 {
+				title: to: content: timestamp:
+			}
+		],
+
+		FOR RECOMMENDATION: WE will just use his last query from the history, and show the results..HOPEFULLY NEW CARS WILL BE added
+
+	history: [{
+		timestamp: importanT
+		search_query: {
+			QUERY OBJECT; - > containing all the optins of the search & filter form
+			....AND SO ON
+			radius: 5 km to 1000 km
+			color: < all > / any      ------->
+			transmittion_type: any / manual / automatic
+			make: [honda, bmw, ferari]-- > can be empty but no results would be show: show empty page template
+		},
+		viewed_cars: [car_id] - > dosn 't make sense : as he has already seen it. u dumb
+	}]
+
+}
+
+https: //docs.mongodb.com/manual/core/index-unique/   -_> USE Indexing for emails in dealer & user   --> also for dealerid
+	not
+for userid __ > will use em
+
+https: //stackoverflow.com/questions/28514120/how-to-make-users-email-unique-in-mongodb
+
+
+	my code: abcdef
+your code willbe:
+
+
+	dealer {
+		_id: name: email;
+		pass: dealer - id: _id < -- - dealer - id
+
+		inbox_message_count: -- > will be usefull to increment message id of the messages in inbox & outbox
+		outbox_message_count:
+
+			inbox: [
+				// currentyl no suupport for : replyig on a message, all the messages are currenly stand-alone only
+
+				message_1 {
+					message_id: -- > db.dealer.createIndex({
+							"inbox."
+						}) -- -- >
+						for fast searching of messages in inbox and outbox
+						..we can use the concept of indexing to make it serch fast-- -- - > NOT PRIORITY.
+					title: from: content: timestamp:
+				},
+				message_2 {
+					message_id: title: from: content: timestamp:
+				}
+
+				message_3 {
+					title: from: content: timestamp:
+				}
+			],
+
+		outbox: [
+			message_1 {
+				title: to: content: timestamp:
+			}
+
+			message_2 {
+				title: to: content: timestamp:
+			}
+
+			message_3 {
+				title: to: content: timestamp:
+			}
+		]
+	}

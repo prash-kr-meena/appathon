@@ -1,0 +1,101 @@
+[{
+        "_id": "5b8f0f4de276dd1e0ff083e1",
+        "address": {
+            "proper_address": "sarai kale khan",
+            "lat": 28.58894,
+            "long": "77.25692"
+        },
+        "name": "prashant",
+        "password": "jfalksdjlk;jasdl",
+        "email": "prashant@gmail.com",
+        "inbox": [{
+                "_id": "5b8f0f4de276dd1e0ff083e4",
+                "date": "2018-09-04T23:03:41.627Z",
+                "from": "1@1.com",
+                "message": "message_1"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083e3",
+                "date": "2018-09-04T23:03:41.627Z",
+                "from": "2@2.com",
+                "message": "message_2"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083e2",
+                "date": "2018-09-04T23:03:41.627Z",
+                "from": "3@3.com",
+                "message": "message_3"
+            }
+        ],
+        "outbox": [{
+                "_id": "5b8f0f4de276dd1e0ff083e7",
+                "date": "2018-09-04T23:03:41.627Z",
+                "to": "1@1.com",
+                "message": "message_4"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083e6",
+                "date": "2018-09-04T23:03:41.627Z",
+                "to": "1@1.com",
+                "message": "message_5"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083e5",
+                "date": "2018-09-04T23:03:41.627Z",
+                "to": "1@1.com",
+                "message": "message_6"
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": "5b8f0f4de276dd1e0ff083e8",
+        "address": {
+            "proper_address": "najafgarah",
+            "lat": 28.58894,
+            "long": "77.25692"
+        },
+        "name": "rahul",
+        "password": "jkalsjdflasdl",
+        "email": "rahul@gmail.com",
+        "inbox": [{
+                "_id": "5b8f0f4de276dd1e0ff083eb",
+                "date": "2018-09-04T23:03:41.639Z",
+                "from": "1@1.com",
+                "message": "message_1"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083ea",
+                "date": "2018-09-04T23:03:41.639Z",
+                "from": "2@2.com",
+                "message": "message_2"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083e9",
+                "date": "2018-09-04T23:03:41.639Z",
+                "from": "3@3.com",
+                "message": "message_3"
+            }
+        ],
+        "outbox": [{
+                "_id": "5b8f0f4de276dd1e0ff083ee",
+                "date": "2018-09-04T23:03:41.639Z",
+                "to": "1@1.com",
+                "message": "message_4"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083ed",
+                "date": "2018-09-04T23:03:41.639Z",
+                "to": "1@1.com",
+                "message": "message_5"
+            },
+            {
+                "_id": "5b8f0f4de276dd1e0ff083ec",
+                "date": "2018-09-04T23:03:41.639Z",
+                "to": "1@1.com",
+                "message": "message_6"
+            }
+        ],
+        "__v": 0
+    }
+]

@@ -13,6 +13,7 @@ const ALL_ROUTER = EXPRESS.Router();
 ALL_ROUTER.post('/signup', (req, res) => {
       req.checkBody("user_name", "Name is required").notEmpty();
       req.checkBody("user_email", "Email is required").notEmpty();
+      req.checkBody("address", "Address is required").notEmpty();
       req.checkBody("user_password", "Password is required and should be:   min 5  & max 20  characters long.").isLength({
             min: 5,
             max: 20

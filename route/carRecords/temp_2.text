@@ -1,0 +1,5473 @@
+> db.companies.aggregate([   { $match: { company_name: { $in: ["gmc"] } } },   { $unwind: "$cars" } ]).pretty()
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dc9e2454769bef1589f"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 3129397,
+                "trim" : "SLE 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158a4"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 2613337,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158a9"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 3949532,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158ae"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 1073520,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158b8"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 4818030,
+                "trim" : "SLE Ext. Cab 2WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "4.3L V6 OHV 12V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158bd"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 3089887,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158cc"),
+                "model" : "Yukon",
+                "year" : 2015,
+                "PriceInINR" : 3759203,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158db"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 1792474,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951dcde2454769bef158e0"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3649025,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951ddee2454769bef15b92"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 1814532,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.0L V6 DOHC 24V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e0de2454769bef16371"),
+                "model" : "YUKON",
+                "year" : 2016,
+                "PriceInINR" : 4098561,
+                "trim" : "SLE 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD 4DR SLE",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e11e2454769bef1642a"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2797177,
+                "trim" : "NULL",
+                "engine" : "NULL",
+                "body" : "SUV",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e18e2454769bef1653d"),
+                "model" : "SIERRA 1500",
+                "year" : 2016,
+                "PriceInINR" : 4390113,
+                "trim" : "SLT Crew Cab Long Box 4WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "4WD CREW CAB 143.5 SLT",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2ae2454769bef1665a"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 876241,
+                "trim" : "SLT Ext. Cab 4WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2ae2454769bef1665f"),
+                "model" : "ACADIA",
+                "year" : 2013,
+                "PriceInINR" : 2425690,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2ae2454769bef1666e"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 629819,
+                "trim" : "SLT Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2ae2454769bef16673"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 4346056,
+                "trim" : "SLT Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2ae2454769bef16678"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 2084304,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2be2454769bef16691"),
+                "model" : "Sierra 1500",
+                "year" : 2011,
+                "PriceInINR" : 4296121,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2be2454769bef16696"),
+                "model" : "CANYON",
+                "year" : 2015,
+                "PriceInINR" : 2269174,
+                "trim" : "Base Crew Cab 2WD Short Box",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2be2454769bef1669b"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 2980681,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951e2ee2454769bef1674a"),
+                "model" : "Yukon",
+                "year" : 2011,
+                "PriceInINR" : 4161396,
+                "trim" : "SLE1 2WD",
+                "engine" : "5.3L V8 OHV 16V FFV",
+                "body" : "SPORT UTILITY 4-DR",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951eff57fc7a6a386b53fc"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 3129397,
+                "trim" : "SLE 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5401"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 2613337,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5406"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 3949532,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b540b"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 1073520,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5415"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 4818030,
+                "trim" : "SLE Ext. Cab 2WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "4.3L V6 OHV 12V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b541a"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 3089887,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5429"),
+                "model" : "Yukon",
+                "year" : 2015,
+                "PriceInINR" : 3759203,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5438"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 1792474,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b543d"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3649025,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f1457fc7a6a386b56ef"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 1814532,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.0L V6 DOHC 24V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f4457fc7a6a386b5ece"),
+                "model" : "YUKON",
+                "year" : 2016,
+                "PriceInINR" : 4098561,
+                "trim" : "SLE 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD 4DR SLE",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f4757fc7a6a386b5f87"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2797177,
+                "trim" : "NULL",
+                "engine" : "NULL",
+                "body" : "SUV",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f4e57fc7a6a386b609a"),
+                "model" : "SIERRA 1500",
+                "year" : 2016,
+                "PriceInINR" : 4390113,
+                "trim" : "SLT Crew Cab Long Box 4WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "4WD CREW CAB 143.5 SLT",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61b7"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 876241,
+                "trim" : "SLT Ext. Cab 4WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61bc"),
+                "model" : "ACADIA",
+                "year" : 2013,
+                "PriceInINR" : 2425690,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61cb"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 629819,
+                "trim" : "SLT Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61d0"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 4346056,
+                "trim" : "SLT Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61d5"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 2084304,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61ee"),
+                "model" : "Sierra 1500",
+                "year" : 2011,
+                "PriceInINR" : 4296121,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61f3"),
+                "model" : "CANYON",
+                "year" : 2015,
+                "PriceInINR" : 2269174,
+                "trim" : "Base Crew Cab 2WD Short Box",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6157fc7a6a386b61f8"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 2980681,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f6557fc7a6a386b62a7"),
+                "model" : "Yukon",
+                "year" : 2011,
+                "PriceInINR" : 4161396,
+                "trim" : "SLE1 2WD",
+                "engine" : "5.3L V8 OHV 16V FFV",
+                "body" : "SPORT UTILITY 4-DR",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951eff57fc7a6a386b53f8"),
+                "model" : "TERRAIN",
+                "year" : 2013,
+                "PriceInINR" : 3851710,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951eff57fc7a6a386b53fd"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 3386421,
+                "trim" : "Denali Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.2L V8 OHV 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5407"),
+                "model" : "ACADIA",
+                "year" : 2013,
+                "PriceInINR" : 4260064,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5411"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3456118,
+                "trim" : "SLT Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5416"),
+                "model" : "YUKON",
+                "year" : 2013,
+                "PriceInINR" : 3288932,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5425"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 4739427,
+                "trim" : "SLE-2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b542a"),
+                "model" : "Yukon Denali",
+                "year" : 2015,
+                "PriceInINR" : 2427050,
+                "trim" : "4WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5434"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2541355,
+                "trim" : "Denali AWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5475"),
+                "model" : "Yukon Denali",
+                "year" : 2012,
+                "PriceInINR" : 3182108,
+                "trim" : "XL 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0d57fc7a6a386b55c9"),
+                "model" : "CANYON",
+                "year" : 2015,
+                "PriceInINR" : 1303789,
+                "trim" : "SLT Crew Cab 4WD Short Box",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0d57fc7a6a386b5605"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 2717756,
+                "trim" : "SLE1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f1757fc7a6a386b57cc"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 3516618,
+                "trim" : "Denali",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f9657fc7a6a386b6a77"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 1625184,
+                "trim" : "SLT-1 AWD",
+                "engine" : "3.6L V6 DOHC 24V",
+                "body" : "AWD 5DR SLT1",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4f"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fa057fc7a6a386b6c02"),
+                "model" : "Sierra 1500",
+                "year" : 2015,
+                "PriceInINR" : 3211080,
+                "trim" : "SLE Crew Cab Long Box 4WD",
+                "engine" : "4.3L V6 OHV 12V",
+                "body" : "CREW CAB PICKUP 4-DR",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fa057fc7a6a386b6c34"),
+                "model" : "TERRAIN",
+                "year" : 2011,
+                "PriceInINR" : 3935358,
+                "trim" : "JET BLK CLOTH",
+                "engine" : "2.4L L4 DOHC 16V",
+                "body" : "SPORT UTILITY 4-DR",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fa057fc7a6a386b6c70"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 807179,
+                "trim" : "HOU JET BLACK",
+                "engine" : "NULL",
+                "body" : "4WD CREW CAB 143.5 SLE",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fad57fc7a6a386b6e3c"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 3764286,
+                "trim" : "SLE 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD 4DR SLE",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fad57fc7a6a386b6eb4"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 2657771,
+                "trim" : "SLE1 FWD",
+                "engine" : "2.4L L4 DOHC 16V",
+                "body" : "FWD 4DR SLE WSLE-1",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb057fc7a6a386b6ecd"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2016,
+                "PriceInINR" : 3320399,
+                "trim" : "SLT Double Cab 4WD",
+                "engine" : "6.6L V8 OHV 16V DIESEL",
+                "body" : "4WD DOUBLE CAB 144.2 SLT",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb057fc7a6a386b6ee1"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 2154610,
+                "trim" : "SLT Crew Cab Long Box 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD CREW CAB 153.0 SLT",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6f72"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2015,
+                "PriceInINR" : 2867515,
+                "trim" : "Denali Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.6L V8 OHV 16V DIESEL",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6f81"),
+                "model" : "TERRAIN",
+                "year" : 2013,
+                "PriceInINR" : 744658,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6f86"),
+                "model" : "ACADIA",
+                "year" : 2015,
+                "PriceInINR" : 3311009,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6f8b"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 1753152,
+                "trim" : "SLT2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6f90"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2180057,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6f95"),
+                "model" : "ACADIA",
+                "year" : 2013,
+                "PriceInINR" : 1572903,
+                "trim" : "Denali FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6f9a"),
+                "model" : "Terrain",
+                "year" : 2015,
+                "PriceInINR" : 3417788,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6fa4"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3867264,
+                "trim" : "SLT Ext. Cab 2WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6fa9"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 4481033,
+                "trim" : "SLT Crew Cab Long Box 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fb757fc7a6a386b6fae"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 2525479,
+                "trim" : "SLE 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fba57fc7a6a386b7012"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 2239240,
+                "trim" : "SLE Crew Cab Long Box 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fbd57fc7a6a386b7094"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2015,
+                "PriceInINR" : 2262179,
+                "trim" : "Denali Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.6L V8 OHV 16V DIESEL",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fe457fc7a6a386b72f1"),
+                "model" : "TERRAIN",
+                "year" : 2011,
+                "PriceInINR" : 1187038,
+                "trim" : "SLE1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951fe757fc7a6a386b737d"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 4536501,
+                "trim" : "SLE Double Cab 2WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "4.3L V6 OHV 12V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951eff57fc7a6a386b53fb"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 1730235,
+                "trim" : "Denali AWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5400"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 2028070,
+                "trim" : "SLT 4WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b540a"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 2262991,
+                "trim" : "SLE Crew Cab Long Box 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5414"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2015,
+                "PriceInINR" : 1990578,
+                "trim" : "Denali Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.6L V8 OHV 16V DIESEL",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5419"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2013,
+                "PriceInINR" : 1379052,
+                "trim" : "SLE Ext. Cab 4WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "6.0L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b541e"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 2132319,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b542d"),
+                "model" : "SIERRA 1500",
+                "year" : 2011,
+                "PriceInINR" : 1002847,
+                "trim" : "NULL",
+                "engine" : "NULL",
+                "body" : "PK",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5432"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 4324341,
+                "trim" : "SLT2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5437"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2015,
+                "PriceInINR" : 1393783,
+                "trim" : "SLT Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.6L V8 OHV 16V DIESEL",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b543c"),
+                "model" : "SIERRA 1500",
+                "year" : 2012,
+                "PriceInINR" : 2406967,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5446"),
+                "model" : "Sierra Hybrid",
+                "year" : 2012,
+                "PriceInINR" : 4090768,
+                "trim" : "3HA Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.0L V8  OHV 16V HYBRID",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0d57fc7a6a386b5635"),
+                "model" : "CANYON",
+                "year" : 2015,
+                "PriceInINR" : 2492435,
+                "trim" : "SLE Crew Cab 2WD Short Box",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0d57fc7a6a386b563a"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 1695336,
+                "trim" : "SLE Crew Cab Long Box 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f1757fc7a6a386b576b"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3333469,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f1757fc7a6a386b577f"),
+                "model" : "Yukon",
+                "year" : 2015,
+                "PriceInINR" : 2027550,
+                "trim" : "SLE 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "SPORT UTILITY 4-DR",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f1b57fc7a6a386b580b"),
+                "model" : "Sierra 2500HD",
+                "year" : 2015,
+                "PriceInINR" : 1689101,
+                "trim" : "SLT Crew Cab 4WD",
+                "engine" : "6.6L V8 OHV 16V DIESEL",
+                "body" : "CREW CAB PICKUP 4-DR",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95200157fc7a6a386b7855"),
+                "model" : "ACADIA",
+                "year" : 2010,
+                "PriceInINR" : 1209197,
+                "trim" : "SLE AWD",
+                "engine" : "3.6L V6 DOHC 24V",
+                "body" : "AWD 4DR SLE",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9230e3b3698bb5ca56"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95200f57fc7a6a386b7ab2"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 3529952,
+                "trim" : "BLACK",
+                "engine" : "4.3L V6 OHV 12V",
+                "body" : "2WD CREW CAB 143.5 SLE",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95201257fc7a6a386b7b16"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 4132890,
+                "trim" : "BLACK",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD CREW CAB 143.5 SLE",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95201557fc7a6a386b7ba2"),
+                "model" : "YUKON XL",
+                "year" : 2014,
+                "PriceInINR" : 3785138,
+                "trim" : "19C",
+                "engine" : "5.3L V8 OHV 16V FFV",
+                "body" : "4DR 2WD",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95201957fc7a6a386b7c2e"),
+                "model" : "ACADIA",
+                "year" : 2016,
+                "PriceInINR" : 1596878,
+                "trim" : "192EBONY",
+                "engine" : "3.6L V6 DOHC 24V",
+                "body" : "FWD 4DR SLT WSLT-2",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95201957fc7a6a386b7c4c"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2044711,
+                "trim" : "SLT-1 FWD",
+                "engine" : "3.6L V6 DOHC 24V",
+                "body" : "4DR FWD",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95201c57fc7a6a386b7cba"),
+                "model" : "TERRAIN",
+                "year" : 2016,
+                "PriceInINR" : 2269114,
+                "trim" : "SLE2 FWD",
+                "engine" : "2.4L L4 DOHC 16V",
+                "body" : "FWD 4DR SLE WSLE-2",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95201c57fc7a6a386b7cd8"),
+                "model" : "SIERRA 2500",
+                "year" : 2013,
+                "PriceInINR" : 4694469,
+                "trim" : "EBONY PREMIUM CLOTH",
+                "engine" : "6.6L V8 OHV 32V TURBO DIESEL",
+                "body" : "CREW CAB PICKUP 4-DR",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202057fc7a6a386b7d14"),
+                "model" : "TERRAIN",
+                "year" : 2011,
+                "PriceInINR" : 1583407,
+                "trim" : "SLE1 AWD",
+                "engine" : "2.4L L4 DOHC 16V",
+                "body" : "AWD 4DR SLE-1",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5d"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d2d"),
+                "model" : "YUKON DENALI",
+                "year" : 2015,
+                "PriceInINR" : 3472568,
+                "trim" : "2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d37"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 1805940,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d41"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 4272993,
+                "trim" : "SLE1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d46"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 960293,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d50"),
+                "model" : "Canyon",
+                "year" : 2015,
+                "PriceInINR" : 2659690,
+                "trim" : "SLT Crew Cab 4WD Short Box",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d5a"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 1236701,
+                "trim" : "SLE1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d5f"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 3311597,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95202357fc7a6a386b7d64"),
+                "model" : "SIERRA 1500",
+                "year" : 2012,
+                "PriceInINR" : 1311643,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95204557fc7a6a386b8345"),
+                "model" : "Yukon Denali",
+                "year" : 2015,
+                "PriceInINR" : 4071915,
+                "trim" : "XL 4WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95204557fc7a6a386b8359"),
+                "model" : "YUKON",
+                "year" : 2011,
+                "PriceInINR" : 4215314,
+                "trim" : "SLT1 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b53ff"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 4393320,
+                "trim" : "SLT Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5404"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 2628186,
+                "trim" : "SLE1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5409"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 2127002,
+                "trim" : "SLE 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b540e"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 2153073,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5413"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 875741,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b541d"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 4972331,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5422"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 3445915,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5427"),
+                "model" : "Yukon",
+                "year" : 2013,
+                "PriceInINR" : 3956523,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b542c"),
+                "model" : "ACADIA",
+                "year" : 2013,
+                "PriceInINR" : 1239937,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5436"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2234328,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b543b"),
+                "model" : "TERRAIN",
+                "year" : 2013,
+                "PriceInINR" : 2352160,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b5440"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2015,
+                "PriceInINR" : 3295134,
+                "trim" : "SLT Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.6L V8 OHV 16V DIESEL",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0357fc7a6a386b544a"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 1896832,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.0L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b951f0657fc7a6a386b54d1"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 719578,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f37c45416a861b07e0"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 3129397,
+                "trim" : "SLE 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07e5"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 2613337,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07ea"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 3949532,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07ef"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 1073520,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07f9"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 4818030,
+                "trim" : "SLE Ext. Cab 2WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "4.3L V6 OHV 12V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07fe"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 3089887,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b080d"),
+                "model" : "Yukon",
+                "year" : 2015,
+                "PriceInINR" : 3759203,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b081c"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 1792474,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b0821"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3649025,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521087c45416a861b0ad3"),
+                "model" : "TERRAIN",
+                "year" : 2012,
+                "PriceInINR" : 1814532,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.0L V6 DOHC 24V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521397c45416a861b12b2"),
+                "model" : "YUKON",
+                "year" : 2016,
+                "PriceInINR" : 4098561,
+                "trim" : "SLE 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD 4DR SLE",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95213d7c45416a861b136b"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2797177,
+                "trim" : "NULL",
+                "engine" : "NULL",
+                "body" : "SUV",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521447c45416a861b147e"),
+                "model" : "SIERRA 1500",
+                "year" : 2016,
+                "PriceInINR" : 4390113,
+                "trim" : "SLT Crew Cab Long Box 4WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "4WD CREW CAB 143.5 SLT",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b159b"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 876241,
+                "trim" : "SLT Ext. Cab 4WD",
+                "engine" : "EXTENDED CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b15a0"),
+                "model" : "ACADIA",
+                "year" : 2013,
+                "PriceInINR" : 2425690,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b15af"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 629819,
+                "trim" : "SLT Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b15b4"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 4346056,
+                "trim" : "SLT Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b15b9"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 2084304,
+                "trim" : "SLE-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b15d2"),
+                "model" : "Sierra 1500",
+                "year" : 2011,
+                "PriceInINR" : 4296121,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b15d7"),
+                "model" : "CANYON",
+                "year" : 2015,
+                "PriceInINR" : 2269174,
+                "trim" : "Base Crew Cab 2WD Short Box",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521587c45416a861b15dc"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 2980681,
+                "trim" : "SLE Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Black",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95215b7c45416a861b168b"),
+                "model" : "Yukon",
+                "year" : 2011,
+                "PriceInINR" : 4161396,
+                "trim" : "SLE1 2WD",
+                "engine" : "5.3L V8 OHV 16V FFV",
+                "body" : "SPORT UTILITY 4-DR",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f37c45416a861b07dc"),
+                "model" : "TERRAIN",
+                "year" : 2013,
+                "PriceInINR" : 3851710,
+                "trim" : "SLE2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f37c45416a861b07e1"),
+                "model" : "SIERRA 1500",
+                "year" : 2013,
+                "PriceInINR" : 3386421,
+                "trim" : "Denali Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.2L V8 OHV 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07eb"),
+                "model" : "ACADIA",
+                "year" : 2013,
+                "PriceInINR" : 4260064,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07f5"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3456118,
+                "trim" : "SLT Crew Cab 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b07fa"),
+                "model" : "YUKON",
+                "year" : 2013,
+                "PriceInINR" : 3288932,
+                "trim" : "SLT 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b0809"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 4739427,
+                "trim" : "SLE-2 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b080e"),
+                "model" : "Yukon Denali",
+                "year" : 2015,
+                "PriceInINR" : 2427050,
+                "trim" : "4WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b0818"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 2541355,
+                "trim" : "Denali AWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9520f77c45416a861b0859"),
+                "model" : "Yukon Denali",
+                "year" : 2012,
+                "PriceInINR" : 3182108,
+                "trim" : "XL 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521017c45416a861b09ad"),
+                "model" : "CANYON",
+                "year" : 2015,
+                "PriceInINR" : 1303789,
+                "trim" : "SLT Crew Cab 4WD Short Box",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521017c45416a861b09e9"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 2717756,
+                "trim" : "SLE1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95210b7c45416a861b0bb0"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 3516618,
+                "trim" : "Denali",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95218f7c45416a861b1e5b"),
+                "model" : "ACADIA",
+                "year" : 2012,
+                "PriceInINR" : 1625184,
+                "trim" : "SLT-1 AWD",
+                "engine" : "3.6L V6 DOHC 24V",
+                "body" : "AWD 5DR SLT1",
+                "color" : "Silver",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4f"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95219a7c45416a861b1fe6"),
+                "model" : "Sierra 1500",
+                "year" : 2015,
+                "PriceInINR" : 3211080,
+                "trim" : "SLE Crew Cab Long Box 4WD",
+                "engine" : "4.3L V6 OHV 12V",
+                "body" : "CREW CAB PICKUP 4-DR",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95219a7c45416a861b2018"),
+                "model" : "TERRAIN",
+                "year" : 2011,
+                "PriceInINR" : 3935358,
+                "trim" : "JET BLK CLOTH",
+                "engine" : "2.4L L4 DOHC 16V",
+                "body" : "SPORT UTILITY 4-DR",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b95219a7c45416a861b2054"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 807179,
+                "trim" : "HOU JET BLACK",
+                "engine" : "NULL",
+                "body" : "4WD CREW CAB 143.5 SLE",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521a97c45416a861b2220"),
+                "model" : "YUKON",
+                "year" : 2015,
+                "PriceInINR" : 3764286,
+                "trim" : "SLE 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD 4DR SLE",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521a97c45416a861b2298"),
+                "model" : "TERRAIN",
+                "year" : 2015,
+                "PriceInINR" : 2657771,
+                "trim" : "SLE1 FWD",
+                "engine" : "2.4L L4 DOHC 16V",
+                "body" : "FWD 4DR SLE WSLE-1",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521ad7c45416a861b22b1"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2016,
+                "PriceInINR" : 3320399,
+                "trim" : "SLT Double Cab 4WD",
+                "engine" : "6.6L V8 OHV 16V DIESEL",
+                "body" : "4WD DOUBLE CAB 144.2 SLT",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521ad7c45416a861b22c5"),
+                "model" : "SIERRA 1500",
+                "year" : 2015,
+                "PriceInINR" : 2154610,
+                "trim" : "SLT Crew Cab Long Box 2WD",
+                "engine" : "5.3L V8 OHV 16V",
+                "body" : "2WD CREW CAB 153.0 SLT",
+                "color" : "Grey",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b2360"),
+                "model" : "SIERRA 1500",
+                "year" : 2014,
+                "PriceInINR" : 3320316,
+                "trim" : "SLE Crew Cab Long Box 2WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b2365"),
+                "model" : "SIERRA 2500HD",
+                "year" : 2015,
+                "PriceInINR" : 3031399,
+                "trim" : "SLT Crew Cab 4WD",
+                "engine" : "CREW CAB PICKUP 4-DR",
+                "body" : "6.6L V8 OHV 16V DIESEL",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b236a"),
+                "model" : "Yukon Denali",
+                "year" : 2013,
+                "PriceInINR" : 2488431,
+                "trim" : "4WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b2374"),
+                "model" : "YUKON XL",
+                "year" : 2015,
+                "PriceInINR" : 2841519,
+                "trim" : "SLT 12 Ton 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b2379"),
+                "model" : "ACADIA",
+                "year" : 2014,
+                "PriceInINR" : 4629692,
+                "trim" : "SLT-1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b237e"),
+                "model" : "YUKON XL",
+                "year" : 2013,
+                "PriceInINR" : 1306794,
+                "trim" : "SLT 12 Ton 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b2383"),
+                "model" : "Yukon Denali",
+                "year" : 2015,
+                "PriceInINR" : 4794479,
+                "trim" : "XL 4WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "6.2L V8 OHV 16V",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b238d"),
+                "model" : "Yukon XL",
+                "year" : 2011,
+                "PriceInINR" : 4054434,
+                "trim" : "SLE-1 12 Ton 2WD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "5.3L V8 OHV 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521b57c45416a861b2392"),
+                "model" : "TERRAIN",
+                "year" : 2014,
+                "PriceInINR" : 2651614,
+                "trim" : "SLT1 FWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "2.4L L4 DOHC 16V FFV",
+                "color" : "Yellow",
+                "transmission_type" : "Manual",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521c17c45416a861b2563"),
+                "model" : "Canyon",
+                "year" : 2015,
+                "PriceInINR" : 1449983,
+                "trim" : "SLE Crew Cab 2WD Short Box",
+                "engine" : "3.6L V6 DOHC 24V",
+                "body" : "CREW CAB PICKUP 4-DR",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+{
+        "_id" : ObjectId("5b951df6a5a4d78f857af388"),
+        "company_location" : "USA",
+        "company_name" : "gmc",
+        "__v" : 0,
+        "cars" : {
+                "_id" : ObjectId("5b9521c47c45416a861b25ae"),
+                "model" : "ACADIA",
+                "year" : 2015,
+                "PriceInINR" : 2759742,
+                "trim" : "SLT-2 AWD",
+                "engine" : "SPORT UTILITY 4-DR",
+                "body" : "3.6L V6 DOHC 24V",
+                "color" : "Metallic White",
+                "transmission_type" : "Automatic",
+                "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+        }
+}
+Type "it" for more
+>
+
+
+
+
+
+
+
+==================
+
+
+> db.companies.aggregate([
+...   { $match: { company_name: { $in: ["gmc"] } } },
+...   { $unwind: "$cars" },
+...   { $replaceRoot: { newRoot: "$cars" } },
+... ]).pretty()
+
+{
+        "_id" : ObjectId("5b951dc9e2454769bef1589f"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 3129397,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158a4"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2613337,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158a9"),
+        "model" : "ACADIA",
+        "year" : 2014,
+        "PriceInINR" : 3949532,
+        "trim" : "SLE-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158ae"),
+        "model" : "TERRAIN",
+        "year" : 2014,
+        "PriceInINR" : 1073520,
+        "trim" : "SLE2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158b8"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 4818030,
+        "trim" : "SLE Ext. Cab 2WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "4.3L V6 OHV 12V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158bd"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 3089887,
+        "trim" : "SLE-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158cc"),
+        "model" : "Yukon",
+        "year" : 2015,
+        "PriceInINR" : 3759203,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158db"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 1792474,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158e0"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 3649025,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951ddee2454769bef15b92"),
+        "model" : "TERRAIN",
+        "year" : 2012,
+        "PriceInINR" : 1814532,
+        "trim" : "SLT1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.0L V6 DOHC 24V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e0de2454769bef16371"),
+        "model" : "YUKON",
+        "year" : 2016,
+        "PriceInINR" : 4098561,
+        "trim" : "SLE 2WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD 4DR SLE",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951e11e2454769bef1642a"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 2797177,
+        "trim" : "NULL",
+        "engine" : "NULL",
+        "body" : "SUV",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951e18e2454769bef1653d"),
+        "model" : "SIERRA 1500",
+        "year" : 2016,
+        "PriceInINR" : 4390113,
+        "trim" : "SLT Crew Cab Long Box 4WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "4WD CREW CAB 143.5 SLT",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951e2ae2454769bef1665a"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 876241,
+        "trim" : "SLT Ext. Cab 4WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e2ae2454769bef1665f"),
+        "model" : "ACADIA",
+        "year" : 2013,
+        "PriceInINR" : 2425690,
+        "trim" : "SLT-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e2ae2454769bef1666e"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 629819,
+        "trim" : "SLT Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e2ae2454769bef16673"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 4346056,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e2ae2454769bef16678"),
+        "model" : "ACADIA",
+        "year" : 2014,
+        "PriceInINR" : 2084304,
+        "trim" : "SLE-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e2be2454769bef16691"),
+        "model" : "Sierra 1500",
+        "year" : 2011,
+        "PriceInINR" : 4296121,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e2be2454769bef16696"),
+        "model" : "CANYON",
+        "year" : 2015,
+        "PriceInINR" : 2269174,
+        "trim" : "Base Crew Cab 2WD Short Box",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951e2be2454769bef1669b"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 2980681,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951e2ee2454769bef1674a"),
+        "model" : "Yukon",
+        "year" : 2011,
+        "PriceInINR" : 4161396,
+        "trim" : "SLE1 2WD",
+        "engine" : "5.3L V8 OHV 16V FFV",
+        "body" : "SPORT UTILITY 4-DR",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951eff57fc7a6a386b53fc"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 3129397,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5401"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2613337,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5406"),
+        "model" : "ACADIA",
+        "year" : 2014,
+        "PriceInINR" : 3949532,
+        "trim" : "SLE-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b540b"),
+        "model" : "TERRAIN",
+        "year" : 2014,
+        "PriceInINR" : 1073520,
+        "trim" : "SLE2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5415"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 4818030,
+        "trim" : "SLE Ext. Cab 2WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "4.3L V6 OHV 12V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b541a"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 3089887,
+        "trim" : "SLE-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5429"),
+        "model" : "Yukon",
+        "year" : 2015,
+        "PriceInINR" : 3759203,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5438"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 1792474,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b543d"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 3649025,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f1457fc7a6a386b56ef"),
+        "model" : "TERRAIN",
+        "year" : 2012,
+        "PriceInINR" : 1814532,
+        "trim" : "SLT1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.0L V6 DOHC 24V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f4457fc7a6a386b5ece"),
+        "model" : "YUKON",
+        "year" : 2016,
+        "PriceInINR" : 4098561,
+        "trim" : "SLE 2WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD 4DR SLE",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951f4757fc7a6a386b5f87"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 2797177,
+        "trim" : "NULL",
+        "engine" : "NULL",
+        "body" : "SUV",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951f4e57fc7a6a386b609a"),
+        "model" : "SIERRA 1500",
+        "year" : 2016,
+        "PriceInINR" : 4390113,
+        "trim" : "SLT Crew Cab Long Box 4WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "4WD CREW CAB 143.5 SLT",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61b7"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 876241,
+        "trim" : "SLT Ext. Cab 4WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61bc"),
+        "model" : "ACADIA",
+        "year" : 2013,
+        "PriceInINR" : 2425690,
+        "trim" : "SLT-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61cb"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 629819,
+        "trim" : "SLT Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61d0"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 4346056,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61d5"),
+        "model" : "ACADIA",
+        "year" : 2014,
+        "PriceInINR" : 2084304,
+        "trim" : "SLE-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61ee"),
+        "model" : "Sierra 1500",
+        "year" : 2011,
+        "PriceInINR" : 4296121,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61f3"),
+        "model" : "CANYON",
+        "year" : 2015,
+        "PriceInINR" : 2269174,
+        "trim" : "Base Crew Cab 2WD Short Box",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f6157fc7a6a386b61f8"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 2980681,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f6557fc7a6a386b62a7"),
+        "model" : "Yukon",
+        "year" : 2011,
+        "PriceInINR" : 4161396,
+        "trim" : "SLE1 2WD",
+        "engine" : "5.3L V8 OHV 16V FFV",
+        "body" : "SPORT UTILITY 4-DR",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951eff57fc7a6a386b53f8"),
+        "model" : "TERRAIN",
+        "year" : 2013,
+        "PriceInINR" : 3851710,
+        "trim" : "SLE2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951eff57fc7a6a386b53fd"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 3386421,
+        "trim" : "Denali Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.2L V8 OHV 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5407"),
+        "model" : "ACADIA",
+        "year" : 2013,
+        "PriceInINR" : 4260064,
+        "trim" : "SLT-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5411"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 3456118,
+        "trim" : "SLT Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5416"),
+        "model" : "YUKON",
+        "year" : 2013,
+        "PriceInINR" : 3288932,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5425"),
+        "model" : "ACADIA",
+        "year" : 2014,
+        "PriceInINR" : 4739427,
+        "trim" : "SLE-2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b542a"),
+        "model" : "Yukon Denali",
+        "year" : 2015,
+        "PriceInINR" : 2427050,
+        "trim" : "4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "6.2L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5434"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 2541355,
+        "trim" : "Denali AWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5475"),
+        "model" : "Yukon Denali",
+        "year" : 2012,
+        "PriceInINR" : 3182108,
+        "trim" : "XL 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "6.2L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0d57fc7a6a386b55c9"),
+        "model" : "CANYON",
+        "year" : 2015,
+        "PriceInINR" : 1303789,
+        "trim" : "SLT Crew Cab 4WD Short Box",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0d57fc7a6a386b5605"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 2717756,
+        "trim" : "SLE1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f1757fc7a6a386b57cc"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 3516618,
+        "trim" : "Denali",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f9657fc7a6a386b6a77"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 1625184,
+        "trim" : "SLT-1 AWD",
+        "engine" : "3.6L V6 DOHC 24V",
+        "body" : "AWD 5DR SLT1",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4f"
+}
+{
+        "_id" : ObjectId("5b951fa057fc7a6a386b6c02"),
+        "model" : "Sierra 1500",
+        "year" : 2015,
+        "PriceInINR" : 3211080,
+        "trim" : "SLE Crew Cab Long Box 4WD",
+        "engine" : "4.3L V6 OHV 12V",
+        "body" : "CREW CAB PICKUP 4-DR",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951fa057fc7a6a386b6c34"),
+        "model" : "TERRAIN",
+        "year" : 2011,
+        "PriceInINR" : 3935358,
+        "trim" : "JET BLK CLOTH",
+        "engine" : "2.4L L4 DOHC 16V",
+        "body" : "SPORT UTILITY 4-DR",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951fa057fc7a6a386b6c70"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 807179,
+        "trim" : "HOU JET BLACK",
+        "engine" : "NULL",
+        "body" : "4WD CREW CAB 143.5 SLE",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951fad57fc7a6a386b6e3c"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 3764286,
+        "trim" : "SLE 2WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD 4DR SLE",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951fad57fc7a6a386b6eb4"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 2657771,
+        "trim" : "SLE1 FWD",
+        "engine" : "2.4L L4 DOHC 16V",
+        "body" : "FWD 4DR SLE WSLE-1",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951fb057fc7a6a386b6ecd"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2016,
+        "PriceInINR" : 3320399,
+        "trim" : "SLT Double Cab 4WD",
+        "engine" : "6.6L V8 OHV 16V DIESEL",
+        "body" : "4WD DOUBLE CAB 144.2 SLT",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951fb057fc7a6a386b6ee1"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 2154610,
+        "trim" : "SLT Crew Cab Long Box 2WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD CREW CAB 153.0 SLT",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6f72"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 2867515,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6f81"),
+        "model" : "TERRAIN",
+        "year" : 2013,
+        "PriceInINR" : 744658,
+        "trim" : "SLE2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6f86"),
+        "model" : "ACADIA",
+        "year" : 2015,
+        "PriceInINR" : 3311009,
+        "trim" : "SLE-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6f8b"),
+        "model" : "TERRAIN",
+        "year" : 2012,
+        "PriceInINR" : 1753152,
+        "trim" : "SLT2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6f90"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 2180057,
+        "trim" : "SLT-1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6f95"),
+        "model" : "ACADIA",
+        "year" : 2013,
+        "PriceInINR" : 1572903,
+        "trim" : "Denali FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6f9a"),
+        "model" : "Terrain",
+        "year" : 2015,
+        "PriceInINR" : 3417788,
+        "trim" : "SLT1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6fa4"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 3867264,
+        "trim" : "SLT Ext. Cab 2WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6fa9"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 4481033,
+        "trim" : "SLT Crew Cab Long Box 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fb757fc7a6a386b6fae"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2525479,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fba57fc7a6a386b7012"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 2239240,
+        "trim" : "SLE Crew Cab Long Box 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Grey",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fbd57fc7a6a386b7094"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 2262179,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fe457fc7a6a386b72f1"),
+        "model" : "TERRAIN",
+        "year" : 2011,
+        "PriceInINR" : 1187038,
+        "trim" : "SLE1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fe757fc7a6a386b737d"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 4536501,
+        "trim" : "SLE Double Cab 2WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "4.3L V6 OHV 12V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951eff57fc7a6a386b53fb"),
+        "model" : "ACADIA",
+        "year" : 2014,
+        "PriceInINR" : 1730235,
+        "trim" : "Denali AWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5400"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2028070,
+        "trim" : "SLT 4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b540a"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 2262991,
+        "trim" : "SLE Crew Cab Long Box 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5414"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1990578,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5419"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2013,
+        "PriceInINR" : 1379052,
+        "trim" : "SLE Ext. Cab 4WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "6.0L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b541e"),
+        "model" : "TERRAIN",
+        "year" : 2012,
+        "PriceInINR" : 2132319,
+        "trim" : "SLE2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b542d"),
+        "model" : "SIERRA 1500",
+        "year" : 2011,
+        "PriceInINR" : 1002847,
+        "trim" : "NULL",
+        "engine" : "NULL",
+        "body" : "PK",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5432"),
+        "model" : "TERRAIN",
+        "year" : 2014,
+        "PriceInINR" : 4324341,
+        "trim" : "SLT2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5437"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1393783,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b543c"),
+        "model" : "SIERRA 1500",
+        "year" : 2012,
+        "PriceInINR" : 2406967,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5446"),
+        "model" : "Sierra Hybrid",
+        "year" : 2012,
+        "PriceInINR" : 4090768,
+        "trim" : "3HA Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.0L V8  OHV 16V HYBRID",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0d57fc7a6a386b5635"),
+        "model" : "CANYON",
+        "year" : 2015,
+        "PriceInINR" : 2492435,
+        "trim" : "SLE Crew Cab 2WD Short Box",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0d57fc7a6a386b563a"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 1695336,
+        "trim" : "SLE Crew Cab Long Box 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f1757fc7a6a386b576b"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 3333469,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f1757fc7a6a386b577f"),
+        "model" : "Yukon",
+        "year" : 2015,
+        "PriceInINR" : 2027550,
+        "trim" : "SLE 2WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "SPORT UTILITY 4-DR",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f1b57fc7a6a386b580b"),
+        "model" : "Sierra 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1689101,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "6.6L V8 OHV 16V DIESEL",
+        "body" : "CREW CAB PICKUP 4-DR",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95200157fc7a6a386b7855"),
+        "model" : "ACADIA",
+        "year" : 2010,
+        "PriceInINR" : 1209197,
+        "trim" : "SLE AWD",
+        "engine" : "3.6L V6 DOHC 24V",
+        "body" : "AWD 4DR SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9230e3b3698bb5ca56"
+}
+{
+        "_id" : ObjectId("5b95200f57fc7a6a386b7ab2"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 3529952,
+        "trim" : "BLACK",
+        "engine" : "4.3L V6 OHV 12V",
+        "body" : "2WD CREW CAB 143.5 SLE",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95201257fc7a6a386b7b16"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 4132890,
+        "trim" : "BLACK",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD CREW CAB 143.5 SLE",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95201557fc7a6a386b7ba2"),
+        "model" : "YUKON XL",
+        "year" : 2014,
+        "PriceInINR" : 3785138,
+        "trim" : "19C",
+        "engine" : "5.3L V8 OHV 16V FFV",
+        "body" : "4DR 2WD",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95201957fc7a6a386b7c2e"),
+        "model" : "ACADIA",
+        "year" : 2016,
+        "PriceInINR" : 1596878,
+        "trim" : "192EBONY",
+        "engine" : "3.6L V6 DOHC 24V",
+        "body" : "FWD 4DR SLT WSLT-2",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95201957fc7a6a386b7c4c"),
+        "model" : "ACADIA",
+        "year" : 2012,
+        "PriceInINR" : 2044711,
+        "trim" : "SLT-1 FWD",
+        "engine" : "3.6L V6 DOHC 24V",
+        "body" : "4DR FWD",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b95201c57fc7a6a386b7cba"),
+        "model" : "TERRAIN",
+        "year" : 2016,
+        "PriceInINR" : 2269114,
+        "trim" : "SLE2 FWD",
+        "engine" : "2.4L L4 DOHC 16V",
+        "body" : "FWD 4DR SLE WSLE-2",
+        "color" : "Silver",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95201c57fc7a6a386b7cd8"),
+        "model" : "SIERRA 2500",
+        "year" : 2013,
+        "PriceInINR" : 4694469,
+        "trim" : "EBONY PREMIUM CLOTH",
+        "engine" : "6.6L V8 OHV 32V TURBO DIESEL",
+        "body" : "CREW CAB PICKUP 4-DR",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95202057fc7a6a386b7d14"),
+        "model" : "TERRAIN",
+        "year" : 2011,
+        "PriceInINR" : 1583407,
+        "trim" : "SLE1 AWD",
+        "engine" : "2.4L L4 DOHC 16V",
+        "body" : "AWD 4DR SLE-1",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5d"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d2d"),
+        "model" : "YUKON DENALI",
+        "year" : 2015,
+        "PriceInINR" : 3472568,
+        "trim" : "2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "6.2L V8 OHV 16V",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d37"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 1805940,
+        "trim" : "SLT1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d41"),
+        "model" : "TERRAIN",
+        "year" : 2014,
+        "PriceInINR" : 4272993,
+        "trim" : "SLE1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d46"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 960293,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d50"),
+        "model" : "Canyon",
+        "year" : 2015,
+        "PriceInINR" : 2659690,
+        "trim" : "SLT Crew Cab 4WD Short Box",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d5a"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 1236701,
+        "trim" : "SLE1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d5f"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 3311597,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95202357fc7a6a386b7d64"),
+        "model" : "SIERRA 1500",
+        "year" : 2012,
+        "PriceInINR" : 1311643,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95204557fc7a6a386b8345"),
+        "model" : "Yukon Denali",
+        "year" : 2015,
+        "PriceInINR" : 4071915,
+        "trim" : "XL 4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "6.2L V8 OHV 16V",
+        "color" : "Black",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95204557fc7a6a386b8359"),
+        "model" : "YUKON",
+        "year" : 2011,
+        "PriceInINR" : 4215314,
+        "trim" : "SLT1 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Yellow",
+        "transmission_type" : "Manual",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b53ff"),
+        "model" : "SIERRA 1500",
+        "year" : 2014,
+        "PriceInINR" : 4393320,
+        "trim" : "SLT Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5404"),
+        "model" : "TERRAIN",
+        "year" : 2012,
+        "PriceInINR" : 2628186,
+        "trim" : "SLE1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5409"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2127002,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b540e"),
+        "model" : "TERRAIN",
+        "year" : 2014,
+        "PriceInINR" : 2153073,
+        "trim" : "SLT1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5413"),
+        "model" : "TERRAIN",
+        "year" : 2012,
+        "PriceInINR" : 875741,
+        "trim" : "SLT1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b541d"),
+        "model" : "SIERRA 1500",
+        "year" : 2013,
+        "PriceInINR" : 4972331,
+        "trim" : "SLE Crew Cab 2WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5422"),
+        "model" : "TERRAIN",
+        "year" : 2014,
+        "PriceInINR" : 3445915,
+        "trim" : "SLT1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+Type "it" for more
+>
+
+
+
+
+
+
+----------
+> db.companies.aggregate([
+...   { $match: { company_name: { $in: ["gmc"] } } },
+...   { $unwind: "$cars" },
+...   { $replaceRoot: { newRoot: "$cars" } },
+...   {
+...     $match: {
+...       transmission_type: "Automatic",
+...       color: "Metallic White",
+...       year: 2015,
+...       PriceInINR: { $gt: 0, $lt: 99999999 }
+...     }
+...   }
+... ]).pretty()
+{
+        "_id" : ObjectId("5b951dcde2454769bef158a4"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2613337,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951dcde2454769bef158cc"),
+        "model" : "Yukon",
+        "year" : 2015,
+        "PriceInINR" : 3759203,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5401"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2613337,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5429"),
+        "model" : "Yukon",
+        "year" : 2015,
+        "PriceInINR" : 3759203,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b542a"),
+        "model" : "Yukon Denali",
+        "year" : 2015,
+        "PriceInINR" : 2427050,
+        "trim" : "4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "6.2L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951fbd57fc7a6a386b7094"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 2262179,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5400"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2028070,
+        "trim" : "SLT 4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5414"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1990578,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5437"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1393783,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5409"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2127002,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b951f0357fc7a6a386b5440"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 3295134,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b07e5"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2613337,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b080d"),
+        "model" : "Yukon",
+        "year" : 2015,
+        "PriceInINR" : 3759203,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b080e"),
+        "model" : "Yukon Denali",
+        "year" : 2015,
+        "PriceInINR" : 2427050,
+        "trim" : "4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "6.2L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521c17c45416a861b2563"),
+        "model" : "Canyon",
+        "year" : 2015,
+        "PriceInINR" : 1449983,
+        "trim" : "SLE Crew Cab 2WD Short Box",
+        "engine" : "3.6L V6 DOHC 24V",
+        "body" : "CREW CAB PICKUP 4-DR",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521c47c45416a861b25ae"),
+        "model" : "ACADIA",
+        "year" : 2015,
+        "PriceInINR" : 2759742,
+        "trim" : "SLT-2 AWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521c47c45416a861b25f4"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 2667928,
+        "trim" : "SLE1 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "2.4L L4 DOHC 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521c87c45416a861b263a"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 3307818,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b07ed"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2127002,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b0824"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 3295134,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b9520f77c45416a861b07e4"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2028070,
+        "trim" : "SLT 4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b07f8"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1990578,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b081b"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1393783,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b07e7"),
+        "model" : "ACADIA",
+        "year" : 2015,
+        "PriceInINR" : 3970475,
+        "trim" : "SLT-2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9520f77c45416a861b080f"),
+        "model" : "Yukon XL",
+        "year" : 2015,
+        "PriceInINR" : 3676813,
+        "trim" : "SLE 12 Ton 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9522d37c45416a861b4bb0"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 1665762,
+        "trim" : "HOU BLACK",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD DOUBLE CAB 143.5 SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95217c7c45416a861b1be2"),
+        "model" : "Yukon XL",
+        "year" : 2015,
+        "PriceInINR" : 4369417,
+        "trim" : "SLT 12 Ton 2WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "SPORT UTILITY 4-DR",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95217c7c45416a861b1bdf"),
+        "model" : "Sierra 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 892468,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "6.6L V8 OHV 16V DIESEL",
+        "body" : "CREW CAB PICKUP 4-DR",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521c17c45416a861b2555"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 1357803,
+        "trim" : "SLE Double Cab 2WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521c47c45416a861b25b0"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 3290866,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521c87c45416a861b2637"),
+        "model" : "Sierra 1500",
+        "year" : 2015,
+        "PriceInINR" : 3352630,
+        "trim" : "SLT Crew Cab Long Box 2WD",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "CREW CAB PICKUP 4-DR",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9521fe7c45416a861b2e1f"),
+        "model" : "CANYON",
+        "year" : 2015,
+        "PriceInINR" : 3681347,
+        "trim" : "SUMMIT WHITE",
+        "engine" : "3.6L V6 DOHC 24V",
+        "body" : "2WD CREW CAB 128.3 SLT",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9521fe7c45416a861b2eab"),
+        "model" : "SIERRA 2500HD BUILT AFTER",
+        "year" : 2015,
+        "PriceInINR" : 517820,
+        "trim" : "H1Y",
+        "engine" : "6.0L V8 OHV 16V FFV",
+        "body" : "4WD CREW CAB 153.7 SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9522027c45416a861b2eb0"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 4358912,
+        "trim" : "H2T",
+        "engine" : "4.3L V6 OHV 12V",
+        "body" : "2WD DOUBLE CAB 143.5 SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95221e7c45416a861b3230"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 2262179,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95221e7c45416a861b3264"),
+        "model" : "Acadia",
+        "year" : 2015,
+        "PriceInINR" : 4008780,
+        "trim" : "SLT-1 AWD",
+        "engine" : "3.6L V6 DOHC 24V",
+        "body" : "SPORT UTILITY 4-DR",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b95225a7c45416a861b3b3d"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 4477555,
+        "trim" : "H2T",
+        "engine" : "4.3L V6 OHV 12V",
+        "body" : "2WD CREW CAB 143.5 SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9522cf7c45416a861b4b0f"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 2695383,
+        "trim" : "JET BLACK",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "4WD CREW CAB 153.0 SLT",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9522cf7c45416a861b4b3c"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 3170085,
+        "trim" : "JET BLACK",
+        "engine" : "2.4L L4 DOHC 16V",
+        "body" : "FWD 4DR DENALI",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9522d37c45416a861b4b9e"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 4547226,
+        "trim" : "JET BLACK",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD CREW CAB 143.5 SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5b9522d37c45416a861b4bb2"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2045795,
+        "trim" : "H4Y",
+        "engine" : "6.2L V8 OHV 16V",
+        "body" : "2WD 4DR DENALI",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9522cf7c45416a861b4b36"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 2233385,
+        "trim" : "COCOADUNE",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "4WD CREW CAB 143.5 SLT",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9524767c45416a861b58c9"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 2695383,
+        "trim" : "JET BLACK",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "4WD CREW CAB 153.0 SLT",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9524767c45416a861b58f0"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 2233385,
+        "trim" : "COCOADUNE",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "4WD CREW CAB 143.5 SLT",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9524767c45416a861b58f6"),
+        "model" : "TERRAIN",
+        "year" : 2015,
+        "PriceInINR" : 3170085,
+        "trim" : "JET BLACK",
+        "engine" : "2.4L L4 DOHC 16V",
+        "body" : "FWD 4DR DENALI",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95247b7c45416a861b596a"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 1665762,
+        "trim" : "HOU BLACK",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD DOUBLE CAB 143.5 SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95247b7c45416a861b5958"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 4547226,
+        "trim" : "JET BLACK",
+        "engine" : "5.3L V8 OHV 16V",
+        "body" : "2WD CREW CAB 143.5 SLE",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b95247b7c45416a861b596c"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2045795,
+        "trim" : "H4Y",
+        "engine" : "6.2L V8 OHV 16V",
+        "body" : "2WD 4DR DENALI",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9330e3b3698bb5ca5c"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5d9d"),
+        "model" : "ACADIA",
+        "year" : 2015,
+        "PriceInINR" : 3970475,
+        "trim" : "SLT-2 FWD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "3.6L V6 DOHC 24V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5dc5"),
+        "model" : "Yukon XL",
+        "year" : 2015,
+        "PriceInINR" : 3676813,
+        "trim" : "SLE 12 Ton 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5dd1"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1393783,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5d9a"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2028070,
+        "trim" : "SLT 4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V FFV",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5dae"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 1990578,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5dda"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 3295134,
+        "trim" : "SLT Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5d9b"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2613337,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5da3"),
+        "model" : "YUKON",
+        "year" : 2015,
+        "PriceInINR" : 2127002,
+        "trim" : "SLE 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5dc3"),
+        "model" : "Yukon",
+        "year" : 2015,
+        "PriceInINR" : 3759203,
+        "trim" : "SLT 2WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524d17c45416a861b5d78"),
+        "model" : "SIERRA 2500HD",
+        "year" : 2015,
+        "PriceInINR" : 2262179,
+        "trim" : "Denali Crew Cab 4WD",
+        "engine" : "CREW CAB PICKUP 4-DR",
+        "body" : "6.6L V8 OHV 16V DIESEL",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524e27c45416a861b5dc4"),
+        "model" : "Yukon Denali",
+        "year" : 2015,
+        "PriceInINR" : 2427050,
+        "trim" : "4WD",
+        "engine" : "SPORT UTILITY 4-DR",
+        "body" : "6.2L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+{
+        "_id" : ObjectId("5b9524f47c45416a861b601c"),
+        "model" : "SIERRA 1500",
+        "year" : 2015,
+        "PriceInINR" : 1357803,
+        "trim" : "SLE Double Cab 2WD",
+        "engine" : "EXTENDED CAB PICKUP 4-DR",
+        "body" : "5.3L V8 OHV 16V",
+        "color" : "Metallic White",
+        "transmission_type" : "Automatic",
+        "dealer_id" : "5b951c9130e3b3698bb5ca4e"
+}
+Type "it" for more
+>

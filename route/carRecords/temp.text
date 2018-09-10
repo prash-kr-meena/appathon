@@ -1,0 +1,32 @@
+db.companies.aggregate([
+  { $match: { company_name: { $in: ["gmc"] } } },
+  { $unwind: "$cars" },
+  { $replaceRoot: { newRoot: "$cars" } },
+  {
+    $match: {
+      transmission_type: "Automatic",
+      color: "Metallic White",
+      year: 2015,
+      price: { $gt: 0, $lt: 99999999 }
+    }
+  }
+])
+
+
+
+db.companies.aggregate([
+  { $match: { company_name: { $in: ["gmc"] } } },
+  { $unwind: "$cars" },
+  { $replaceRoot: { newRoot: "$cars" } },
+  {
+    $match: {
+      transmission_type: "Automatic",
+      color: "Metallic White",
+      year: 2015,
+      PriceInINR: { $gt: 0, $lt: 99999999 }
+    }
+  }
+])
+
+
+gmc
