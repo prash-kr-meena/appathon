@@ -9,21 +9,28 @@ const API_ROUTER = require("express").Router();
 const BCRYPT_JS = require("bcryptjs");
 
 
-// ? for parsing big JSON file
+// * for parsing big JSON file
 const PATH = require("path");
 const BIG_JSON = require('big-json');
 
 
-// ? bringing models
+// * bringing models
 const BuyerModel = require("../models/buyer");
 const DealerModel = require("../models/dealer");
 const CompanyModel = require("../models/company");
 
 
+
+let fixedpass = "000000";
+let salt = BCRYPT_JS.genSaltSync();
+let securePass = BCRYPT_JS.hashSync(fixedpass, salt);
+
+
 API_ROUTER.get('/add_buyer', (req, res) => {
+
       let buyer = new BuyerModel({
             name: "prashant",
-            password: "000000",
+            password: securePass,
             email: "prashant@gmail.com",
             address: {
                   proper_address: "sarai kale khan",
@@ -59,9 +66,6 @@ API_ROUTER.get('/add_buyer', (req, res) => {
                   to: "1@1.com",
                   message: "message_6"
             }]
-
-
-
       });
 
       buyer.save((err) => {
@@ -75,9 +79,9 @@ API_ROUTER.get('/add_buyer', (req, res) => {
 
       //==================================================
 
-      buyer = new BuyerModel({
+      let anotherBuyer = new BuyerModel({
             name: "rahul",
-            password: "000000",
+            password: securePass,
             email: "rahul@gmail.com",
             address: {
                   proper_address: "najafgarah",
@@ -115,24 +119,25 @@ API_ROUTER.get('/add_buyer', (req, res) => {
             }]
       });
 
-      buyer.save((err) => {
+      anotherBuyer.save((err) => {
             if (err) {
-                  console.log(buyer.name + "  NOT registered.   BUYER");
+                  console.log(anotherBuyer.name + "  NOT registered.   BUYER");
                   throw new Error(err);
             } else {
-                  console.log("success  ->  ", buyer.name + " registered successfully.");
+                  console.log("success  ->  ", anotherBuyer.name + " registered successfully.");
             }
       });
 
 
-
-      res.send("done");
+      res.send("buyer created and saved ---> Done");
 });
+
+
 
 API_ROUTER.get('/add_dealer', (req, res) => {
       let dealer = new DealerModel({
             name: "prashant",
-            password: "000000",
+            password: securePass,
             email: "prashant@gmail.com",
             rating: 3, // out of 0 to 5
             no_of_people_rated: 232,
@@ -178,7 +183,7 @@ API_ROUTER.get('/add_dealer', (req, res) => {
       dealer.save((err) => {
             if (err) {
                   console.log(dealer.name + "  NOT registered.   DEALEAR");
-                  // console.log(err);
+                  console.log(err);
             } else {
                   console.log("success  ->  ", dealer.name + " registered successfully.");
             }
@@ -193,11 +198,13 @@ API_ROUTER.get('/add_dealer', (req, res) => {
 
 API_ROUTER.get("/build/", (req, res) => {
 
-      // save_dealers();
-      map_and_save_cars_in_garage();
+      save_dealers();
+      // map_and_save_cars_in_garage();
+
+
+
 
       // ----   insert dealers in the dealers collections --->>> making sure they all have unique emails
-
       function save_dealers() {
             let dealerList = require("./dealer.json");
             let dealer_size = dealerList.length;
@@ -293,10 +300,9 @@ API_ROUTER.get("/build/", (req, res) => {
                               if (dealer[0] === undefined) {
                                     console.log(dealer_email, carRecord, carRecord.DealerID, dealer);
                               }
-                              car.dealer_id = dealer[0]._id; // ? update the dealer_id
+                              car.dealer_id = dealer[0]._id; // * update the dealer_id
 
-                              // ? check if the company exists : and if not then create one --> upsert will do that
-
+                              // * check if the company exists : and if not then create one --> upsert will do that
                               let query = {
                                     company_name: company_name,
                                     company_location: company_location
@@ -310,7 +316,7 @@ API_ROUTER.get("/build/", (req, res) => {
 
 
                               CompanyModel.updateOne(query, updat_command, {
-                                    upsert: true // ? so if it doesn't exist create one
+                                    upsert: true // *              so if it doesn't exist create one
                               }, (err) => {
                                     if (err) {
                                           console.log(`Error : while pushing car to the compay's cars \n ${err}`);
@@ -346,7 +352,7 @@ API_ROUTER.get("/build/", (req, res) => {
 
 
 const carJson = require("./carRecords/car.json");
-API_ROUTER.get('/add_car', (req, res) => {
+API_ROUTER.get('/add_car', (req, res) => {      // * for testing the car parsing.. for above function
       let totalEntries = carJson.length;
       // console.log(totalEntries);
 
@@ -364,7 +370,7 @@ API_ROUTER.get('/add_car', (req, res) => {
 });
 
 
-API_ROUTER.get(`/map_view`, (req, res) => {
+API_ROUTER.get(`/map_view`, (req, res) => {  // * testing the map_view directly from CSV;
 
       let csv_file_path = "./test.csv";
       // let csv_file_path = "./VehicleInventoryData.csv";
@@ -394,7 +400,8 @@ API_ROUTER.get(`/map_view`, (req, res) => {
 });
 
 
-function promise_to_parseCSV(csv_file_path) { // * Parse large csv with stream / pipe(low mem consumption)
+
+function promise_to_parseCSV(csv_file_path) { // ! Parse large csv with stream / pipe(low mem consumption)
 
       let list = [];
 

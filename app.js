@@ -25,7 +25,12 @@ app.use(BODY_PARSER.urlencoded({ //support parsing of application/x-www-form-url
 // add timestamps in front of log messages
 require('console-stamp')(console, '[HH:MM:ss.l]');
 
+
 app.set("view engine", "ejs"); // middle ware
+
+
+const google_maps_config = require("./config/google_maps");
+
 
 
 // ! connect to mongoDB && Some checks
@@ -39,16 +44,21 @@ MONGOOSE.connect(DatabaseConfig.database_host, {
 const DB = MONGOOSE.connection;
 
 
-//? check connection
+//* check connection                                  database events
 DB.once('open', () => {
       console.log('Connected to DB :  SUCCESS');
 });
 
-// ? check db errors
+// * check db errors
 DB.on('error', (db_err) => {
       console.log("DB ERROR : " + db_err);
 });
 
+
+
+
+
+// https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSMissingAllowOrigin
 
 const cors = require('cors');
 
@@ -56,15 +66,11 @@ var corsOptions = {
       origin: '*',
       optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
-
 app.use(cors(corsOptions));
 
 
 
-
-
-
-const google_maps_config = require("./config/google_maps");
+//  =======================================   testing  =======================================
 
 app.get(`/`, function (req, res) {
       res.send("HOME");
@@ -72,12 +78,10 @@ app.get(`/`, function (req, res) {
 
 
 
+app.get(`/map_view`, (req, res) => { // * for testing
 
-
-app.get(`/map_view`, (req, res) => {
-
-      let csv_file_path = "./test.csv";
-      // let csv_file_path = "./VehicleInventoryData.csv";
+      // let csv_file_path = "./test.csv";
+      let csv_file_path = "./stuff/VehicleInventoryData.csv";
 
       let array_Records_Object = [];
 
@@ -104,7 +108,7 @@ app.get(`/map_view`, (req, res) => {
 });
 
 
-app.get(`/map_view_object`, (req, res) => {
+app.get(`/map_view_object`, (req, res) => { // * for testing
 
       let json_object_list = require("./saved_dealer.json");
       // console.log(json_object_list);
@@ -116,13 +120,13 @@ app.get(`/map_view_object`, (req, res) => {
 });
 
 
+//  ===========================================================================================
 
 
 
 function promise_to_parseCSV(csv_file_path) { // * Parse large csv with stream / pipe(low mem consumption)
 
       let list = [];
-
       return new Promise((resolve, reject) => {
 
             let readableStream = FS.createReadStream(csv_file_path);
@@ -142,9 +146,12 @@ function promise_to_parseCSV(csv_file_path) { // * Parse large csv with stream /
 }
 
 
+
+
+// ! ===================================      ROUTES      ===================================
+
 const API_ROUTER = require("./route/api");
 app.use("/api/", API_ROUTER);
-
 
 
 
@@ -160,19 +167,12 @@ const DEALER_ROUTER = require("./route/dealer");
 app.use("/dealer/", DEALER_ROUTER);
 
 
+// ! ===================================      ROUTES      ===================================
+
+
 // process.env.PORT   process.env.IP
 let port = 3000;
 app.listen(port, () => {
       console.log(`server live ${port}`);
 });
 
-
-// ! seprately create all the dom elements variable at one place and then use theem thorugh out
-// ?
-
-// FS.readFile('./test.csv', (err, file_data_buffer) => {
-//       if (err) {
-//             throw new Error("can't read file");
-//       }
-//       console.log(file_data_buffer);
-// });

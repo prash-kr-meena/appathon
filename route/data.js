@@ -3,7 +3,7 @@
 const DATA_ROUTER = require("express").Router();
 
 
-// ? bringing models
+// * bringing models
 const BuyerModel = require("../models/buyer");
 const DealerModel = require("../models/dealer");
 const CompanyModel = require("../models/company");
@@ -15,9 +15,11 @@ DATA_ROUTER.get("/", (req, res) => {
 
 
 
+// !-------------------------- get dealers ----------------------------
 
-DATA_ROUTER.get("/allDealers", (req, res) => { // ? so buyer/admin can see all the dealers, and clicking on one he can get specific
-      //?                                             details of the dealer
+
+DATA_ROUTER.get("/allDealers", (req, res) => { // * so buyer/admin can see all the dealers, and clicking on one he can get specific
+      //*                                             details of the dealer
 
       console.log("hit -->   /allDealers  ");
       DealerModel.find({}, (err, dealers) => {
@@ -33,7 +35,7 @@ DATA_ROUTER.get("/allDealers", (req, res) => { // ? so buyer/admin can see all t
 });
 
 
-DATA_ROUTER.get("/dealer/:id", (req, res) => { // ? detail of specific dealer, provided we have its id, -> get on login
+DATA_ROUTER.get("/dealer/:id", (req, res) => { // * detail of specific dealer, provided we have its id, -> get on login
 
       let id = req.params.id;
       DealerModel.findById(id, (err, dealer) => {
@@ -51,9 +53,10 @@ DATA_ROUTER.get("/dealer/:id", (req, res) => { // ? detail of specific dealer, p
 
 
 
-// !--------------------------get cars for given options-------------------------------------
+// !--------------------------  cars  & company -------------------------------------
 
-DATA_ROUTER.post("/cars_with_given_option", (req, res) => {
+
+DATA_ROUTER.post("/cars_with_given_option", (req, res) => { //*  filtering/searcing the cars, with the given options from dashboard
 
       let companies = req.body.companies;
       let transmission_type = req.body.transmission_type;
@@ -99,16 +102,10 @@ DATA_ROUTER.post("/cars_with_given_option", (req, res) => {
 });
 
 
-// we will get this from query, ie req.query
-DATA_ROUTER.get("/dealer/{id}/[list of company for which he need to see car]", (req, res) => {
-
-});
-
-// !---------------------------------------------------------------
 
 
 
-DATA_ROUTER.get("/car/:id", (req, res) => { // ? detail of specific car
+DATA_ROUTER.get("/car/:id", (req, res) => { // * detail of specific car
       let car_id = req.params.id;
 
       CompanyModel.find({
@@ -127,7 +124,7 @@ DATA_ROUTER.get("/car/:id", (req, res) => { // ? detail of specific car
 });
 
 
-DATA_ROUTER.get("/companies", (req, res) => {
+DATA_ROUTER.get("/companies", (req, res) => { // * all the companiew present in our database
       console.log("hit --> /companies");
       // db.companies.find({}, { _id: 0, company_name: 1 })
 
@@ -145,7 +142,9 @@ DATA_ROUTER.get("/companies", (req, res) => {
 });
 
 
-DATA_ROUTER.get("/car/:company_id/:id", (req, res) => { // ? detail of specific car
+
+//! NO-VIEW
+DATA_ROUTER.get("/car/:company_id/:id", (req, res) => { // * detail of specific car
       let car_id = req.params.id;
       let company_id = req.params.company_id;
 
@@ -174,12 +173,9 @@ DATA_ROUTER.get("/car/:company_id/:id", (req, res) => { // ? detail of specific 
 
 
 
+// ? ----------  get all message data - FOR Buyer     BOTH   INBOX && OUTBOX   ----------
 
-// ? ----------  get all message data - FOR Buyer & Dealer     BOTH   INBOX && OUTBOX   ----------
-
-
-
-DATA_ROUTER.get("/getAllMessage_inbox/buyer/:_id", (req, res) => { // ? for BOTH buyer & dealer
+DATA_ROUTER.get("/getAllMessage_inbox/buyer/:_id", (req, res) => { // * for BOTH buyer & dealer
       console.log("hit ---> /getAllMessage_inbox/buyer/:_id");
       let id = req.params._id;
 
@@ -200,9 +196,8 @@ DATA_ROUTER.get("/getAllMessage_inbox/buyer/:_id", (req, res) => { // ? for BOTH
 });
 
 
-DATA_ROUTER.get("/getAllMessage_outbox/buyer/:_id", (req, res) => { // ? for BOTH buyer & dealer
+DATA_ROUTER.get("/getAllMessage_outbox/buyer/:_id", (req, res) => { // * for BOTH buyer & dealer
       console.log("hit ---> /getAllMessage_outbox/buyer/:_id");
-
       let id = req.params._id;
 
       BuyerModel.find({
@@ -225,9 +220,10 @@ DATA_ROUTER.get("/getAllMessage_outbox/buyer/:_id", (req, res) => { // ? for BOT
 
 
 
-DATA_ROUTER.get("/getAllMessage_inbox/dealer/:_id", (req, res) => { // ? for BOTH buyer & dealer
-      console.log("hit ---> /getAllMessage_inbox/dealer/:_id");
+// ? ----------  get all message data - FOR Dealer     BOTH   INBOX && OUTBOX   ----------
 
+DATA_ROUTER.get("/getAllMessage_inbox/dealer/:_id", (req, res) => { // * for BOTH buyer & dealer
+      console.log("hit ---> /getAllMessage_inbox/dealer/:_id");
       let id = req.params._id;
 
       DealerModel.find({
@@ -246,9 +242,8 @@ DATA_ROUTER.get("/getAllMessage_inbox/dealer/:_id", (req, res) => { // ? for BOT
 });
 
 
-DATA_ROUTER.get("/getAllMessage_outbox/dealer/:_id", (req, res) => { // ? for BOTH buyer & dealer
+DATA_ROUTER.get("/getAllMessage_outbox/dealer/:_id", (req, res) => { // * for BOTH buyer & dealer
       console.log("hit ---> /getAllMessage_outobox/dealer/:_id");
-
       let id = req.params._id;
 
       DealerModel.find({
@@ -266,6 +261,7 @@ DATA_ROUTER.get("/getAllMessage_outbox/dealer/:_id", (req, res) => { // ? for BO
       });
 
 });
+
 
 
 
@@ -422,54 +418,88 @@ DATA_ROUTER.post("/sendMessage/to_buyer/:buyer_id", (req, res) => {
 
 DATA_ROUTER.post("/sendMessage/to_dealer/:dealer_id", (req, res) => {
       console.log("hit --> /sendMessage/to_dealer/:dealer_id");
+      console.log(JSON.stringify(req.body, null, 4));
 
       let dealer_id = req.params.dealer_id; // ?
-
-      // console.log(dealer_id);
-      console.log(req.body);
+      // console.log(" dealer id --> ", dealer_id);
 
       let inbox_message = {
             date: req.body.date,
             from: req.body.sender_email,
             message: req.body.message,
       };
+      // console.log(inbox_message);
 
-      console.log(inbox_message);
+
+
+      let buyer_id = req.body.sender_id;
+      // console.log(" buyer_id --> ", buyer_id);
+      let outbox_message = {
+            date: req.body.date,
+            to: req.body.reciever_email,
+            message: req.body.message,
+      };
+
+
 
       DealerModel.findById(dealer_id, (err, dealer) => {
             if (err) {
-                  res.statusMessage = `Error : while sending messages to buyer with id ${dealer_id}`;
+                  res.statusMessage = `Error : while sending messages to dealer with id ${dealer_id}`;
                   res.status(400).end();
                   return;
             }
-            // console.log(dealer); //! ---> insert in its inbox
-            console.log("fond the Dealer ");
-
-
-            let update_inbox_query = {
+            // console.log(dealer);
+            console.log("found the Dealer ");
+            let update_inbox_query = { //* ---> update his INBOX of reviever
                   $push: {
                         inbox: [inbox_message]
                   }
             };
-
             let query = {
                   _id: dealer_id
             };
 
-
-            DealerModel.updateOne({
-                  query
-            }, {
-                  update_inbox_query
-            }, (err) => {
+            DealerModel.updateOne(query, update_inbox_query, (err) => {
                   if (err) {
                         res.statusMessage = `Error : while pushing message to dealers inbox `;
                         res.status(400).end();
                         return;
                   }
+                  console.log("Message successfully pushed in dealers INBOX");
 
-                  res.status(200);
-                  res.send("Message successfully pushed in dealers mail");
+                  // ? - - - -  - - - -  - - - -  - - - -  for updating outbox - - - -  - - - -  - - - -  - - - -  - - - -
+
+
+                  BuyerModel.findById(buyer_id, (err, buyer) => {
+                        if (err) {
+                              res.statusMessage = `Error : while updating outbox of buyer with id ${buyer_id}`;
+                              res.status(400).end();
+                              return;
+                        }
+                        // console.log(dealer);
+                        console.log("found the Buyer");
+                        let update_outbox_query = { //* ---> update his OUTBOX of reviever
+                              $push: {
+                                    outbox: [outbox_message]
+                              }
+                        };
+                        let query = {
+                              _id: buyer_id
+                        };
+
+                        BuyerModel.updateOne(query, update_outbox_query, (err) => {
+                              if (err) {
+                                    res.statusMessage = `Error : while pushing message to its outbox `;
+                                    res.status(400).end();
+                                    return;
+                              }
+                              res.status(200);
+                              console.log("Message successfully pushed into your OUTBOX");
+                              res.send("Message successfully pushed into your OUTBOX");
+                        });
+
+                  });
+
             });
       });
 
@@ -478,6 +508,7 @@ DATA_ROUTER.post("/sendMessage/to_dealer/:dealer_id", (req, res) => {
 
 });
 
+// bitBattle_2018_170_@myKarmaa.com
 
 
 
