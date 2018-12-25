@@ -136,13 +136,13 @@ API_ROUTER.get('/add_buyer', (req, res) => {
 
 API_ROUTER.get('/add_dealer', (req, res) => {
       let dealer = new DealerModel({
-            name: "prashant",
+            name: "Rahul",
             password: securePass,
-            email: "prashant@gmail.com",
+            email: "rahul_1998@gmail.com",
             rating: 3, // out of 0 to 5
             no_of_people_rated: 232,
             address: {
-                  proper_address: "sarai kale khan",
+                  proper_address: "Delhi Haryana",
                   lat: 28.588940,
                   long: 77.256920
             },
@@ -164,19 +164,17 @@ API_ROUTER.get('/add_dealer', (req, res) => {
             ],
             outbox: [{
                   date: Date.now(),
-                  from: "1@1.com",
+                  to: "1@1.com",
                   message: "message_4"
             }, {
                   date: Date.now(),
-                  from: "1@1.com",
+                  to: "1@1.com",
                   message: "message_5"
             }, {
                   date: Date.now(),
-                  from: "1@1.com",
+                  to: "1@1.com",
                   message: "message_6"
             }]
-
-
 
       });
 
